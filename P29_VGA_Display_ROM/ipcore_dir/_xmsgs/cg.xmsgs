@@ -26,17 +26,4 @@
 <msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   Customization. Core parameters will be reset to their default values.</arg>
 </msg>
 
-<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Pre-processing HDL files for &apos;blk_mem_gen_v7_3&apos;...</arg>
-</msg>
-
-<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Overwriting existing file D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/P29_VGA_Display_ROM/ipcore_dir/tmp/_cg/blk_mem_gen_v7_3/doc/blk_mem_gen_v7_3_vinfo.html with file from view xilinx_documentation</arg>
-</msg>
-
-<msg type="info" file="sim" num="949" delta="new" >Finished generation of ASY schematic symbol.
-</msg>
-
-<msg type="info" file="sim" num="948" delta="new" >Finished FLIST file generation.
-</msg>
-
 </messages>
-
