@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-12-03T17:58:45</DateModified>
+  <DateModified>2020-12-06T10:49:08</DateModified>
   <ModuleName>top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/SisDigAvan/Proyecto_final/sisdig_final/PF_Maze/iseconfig/top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/SisDigAvan/Proyecto_final/sisdig_final/PF_Maze</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Semestre_9/Sistemas Digitales Avanzados/sisdig_final/PF_Maze/iseconfig/Top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Semestre_9/Sistemas Digitales Avanzados/sisdig_final/PF_Maze\</ImplementationReportsDirectory>
   <DateInitialized>2020-12-03T17:58:45</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
