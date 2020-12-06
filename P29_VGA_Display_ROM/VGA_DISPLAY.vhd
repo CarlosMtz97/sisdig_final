@@ -25,10 +25,10 @@ use IEEE.std_logic_unsigned.all;
 
 entity VGA_DISPLAY is
   generic (
-    ImageCols : natural := 30;    -- Image Size, number of Columns
-    ImageRows : natural := 48;    -- Image Size, number of Rows
-	 PosCol    : natural := 150;    -- Top left corner column position where image will be drawn
-	 PosRow    : natural := 150);   -- Top left corner row position where image will be drawn
+    ImageCols : natural := 256;    -- Image Size, number of Columns
+    ImageRows : natural := 256;    -- Image Size, number of Rows
+	 PosCol    : natural := 100;    -- Top left corner column position where image will be drawn
+	 PosRow    : natural := 100);   -- Top left corner row position where image will be drawn
   port (
     Clk : in  STD_LOGIC;
 	 Xin : in  STD_LOGIC_VECTOR(9 downto 0); -- Column screen coordinate

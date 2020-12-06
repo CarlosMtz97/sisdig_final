@@ -8,25 +8,25 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Semestre_9/Sistemas Digitales Avanzados/sisdig_final/Final_Project_Videogame/Top.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/audre/Desktop/Proyecto_final/Final_Project_Videogame/Top.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Semestre_9/Sistemas Digitales Avanzados/sisdig_final/Final_Project_Videogame/VGA.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/audre/Desktop/Proyecto_final/Final_Project_Videogame/VGA.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Semestre_9/Sistemas Digitales Avanzados/sisdig_final/Final_Project_Videogame/VGA_DISPLAY.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/audre/Desktop/Proyecto_final/Final_Project_Videogame/VGA_DISPLAY.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Semestre_9/Sistemas Digitales Avanzados/sisdig_final/Final_Project_Videogame/freqDivider60.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/audre/Desktop/Proyecto_final/Final_Project_Videogame/freqDivider60.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Semestre_9/Sistemas Digitales Avanzados/sisdig_final/Final_Project_Videogame/freqDividerF.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/audre/Desktop/Proyecto_final/Final_Project_Videogame/freqDividerF.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Semestre_9/Sistemas Digitales Avanzados/sisdig_final/Final_Project_Videogame/freqDividerY.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/audre/Desktop/Proyecto_final/Final_Project_Videogame/freqDividerY.vhd&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Semestre_9/Sistemas Digitales Avanzados/sisdig_final/Final_Project_Videogame/score.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/audre/Desktop/Proyecto_final/Final_Project_Videogame/score.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
