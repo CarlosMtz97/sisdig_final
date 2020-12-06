@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-12-06T12:46:50</DateModified>
+  <DateModified>2020-12-06T13:38:01</DateModified>
   <ModuleName>Top</ModuleName>
   <SummaryTimeStamp>2019-12-04T20:34:10</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/audre/Desktop/Proyecto_final/Final_Project_Videogame/iseconfig/Top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/audre/Desktop/Proyecto_final/Final_Project_Videogame\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/iseconfig/Top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame\</ImplementationReportsDirectory>
   <DateInitialized>2017-11-07T09:21:51</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -8,3 +8,6 @@ ERROR:sim -    Coregen is looking for C:\Users\audre\Desktop\ppm\cookie.coe
 ERROR:sim - An invalid core configuration has been detected during
 ERROR:sim -    Customization. Core parameters will be reset to their default
    values.
+ERROR:sim - The Memory Initialization vector can contain between 1 to Write
+Cancelled executing Tcl generator.
+Wrote CGP file for project 'ROM_1'.
