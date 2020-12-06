@@ -1,16 +1,16 @@
-Release 14.7 - xst P.20131013 (nt)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: Top.prj
 
@@ -108,16 +108,16 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\Users\audre\Desktop\Proyecto_final\P29_VGA_Display_ROM\ipcore_dir\ROM_1.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\ipcore_dir\ROM_1.vhd" into library work
 Parsing entity <ROM_1>.
 Parsing architecture <ROM_1_a> of entity <rom_1>.
-Parsing VHDL file "C:\Users\audre\Desktop\Proyecto_final\P29_VGA_Display_ROM\VGA_DISPLAY.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA_DISPLAY.vhd" into library work
 Parsing entity <VGA_DISPLAY>.
 Parsing architecture <Behavioral> of entity <vga_display>.
-Parsing VHDL file "C:\Users\audre\Desktop\Proyecto_final\P29_VGA_Display_ROM\VGA.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA.vhd" into library work
 Parsing entity <VGA>.
 Parsing architecture <Behavioral> of entity <vga>.
-Parsing VHDL file "C:\Users\audre\Desktop\Proyecto_final\P29_VGA_Display_ROM\Top.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\Top.vhd" into library work
 Parsing entity <Top>.
 Parsing architecture <Behavioral> of entity <top>.
 
@@ -128,7 +128,7 @@ Parsing architecture <Behavioral> of entity <top>.
 Elaborating entity <Top> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <VGA> (architecture <Behavioral>) with generics from library <work>.
-INFO:HDLCompiler:679 - "C:\Users\audre\Desktop\Proyecto_final\P29_VGA_Display_ROM\VGA.vhd" Line 164. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA.vhd" Line 164. Case statement is complete. others clause is never selected
 
 Elaborating entity <VGA_DISPLAY> (architecture <Behavioral>) with generics from library <work>.
 
@@ -139,13 +139,13 @@ Elaborating entity <ROM_1> (architecture <ROM_1_a>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <Top>.
-    Related source file is "C:\Users\audre\Desktop\Proyecto_final\P29_VGA_Display_ROM\Top.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\Top.vhd".
     Summary:
 	no macro.
 Unit <Top> synthesized.
 
 Synthesizing Unit <VGA>.
-    Related source file is "C:\Users\audre\Desktop\Proyecto_final\P29_VGA_Display_ROM\VGA.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA.vhd".
         MX_HS = 800
         MX_VS = 521
     Found 1-bit register for signal <En_25>.
@@ -184,7 +184,7 @@ Synthesizing Unit <VGA>.
 Unit <VGA> synthesized.
 
 Synthesizing Unit <VGA_DISPLAY>.
-    Related source file is "C:\Users\audre\Desktop\Proyecto_final\P29_VGA_Display_ROM\VGA_DISPLAY.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA_DISPLAY.vhd".
         ImageCols = 256
         ImageRows = 256
         PosCol = 100
@@ -194,9 +194,9 @@ WARNING:Xst:647 - Input <leftB> is never used. This port will be preserved and l
 WARNING:Xst:647 - Input <upB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <downB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 8-bit register for signal <Color>.
-    Found 16-bit adder for signal <Address> created at line 74.
-    Found 10-bit comparator greater for signal <Xin[9]_GND_8_o_LessThan_2_o> created at line 81
-    Found 10-bit comparator greater for signal <Yin[9]_GND_8_o_LessThan_3_o> created at line 81
+    Found 16-bit adder for signal <Address> created at line 85.
+    Found 10-bit comparator greater for signal <Xin[9]_GND_8_o_LessThan_2_o> created at line 92
+    Found 10-bit comparator greater for signal <Yin[9]_GND_8_o_LessThan_3_o> created at line 92
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred   8 D-type flip-flop(s).
@@ -309,23 +309,23 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 134
+# BELS                             : 135
 #      GND                         : 2
 #      INV                         : 5
 #      LUT1                        : 18
 #      LUT2                        : 21
 #      LUT3                        : 4
 #      LUT4                        : 6
-#      LUT5                        : 7
-#      LUT6                        : 31
+#      LUT5                        : 6
+#      LUT6                        : 33
 #      MUXCY                       : 18
 #      VCC                         : 2
 #      XORCY                       : 20
 # FlipFlops/Latches                : 35
-#      FD                          : 11
+#      FD                          : 16
 #      FDC                         : 5
 #      FDE                         : 2
-#      FDR                         : 8
+#      FDR                         : 3
 #      FDRE                        : 9
 # RAMS                             : 32
 #      RAMB16BWER                  : 32
@@ -343,14 +343,14 @@ Selected Device : 6slx16csg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:              35  out of  18224     0%  
- Number of Slice LUTs:                   92  out of   9112     1%  
-    Number used as Logic:                92  out of   9112     1%  
+ Number of Slice LUTs:                   93  out of   9112     1%  
+    Number used as Logic:                93  out of   9112     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     94
-   Number with an unused Flip Flop:      59  out of     94    62%  
-   Number with an unused LUT:             2  out of     94     2%  
-   Number of fully used LUT-FF pairs:    33  out of     94    35%  
+ Number of LUT Flip Flop pairs used:     95
+   Number with an unused Flip Flop:      60  out of     95    63%  
+   Number with an unused LUT:             2  out of     95     2%  
+   Number of fully used LUT-FF pairs:    33  out of     95    34%  
    Number of unique control sets:         5
 
 IO Utilization: 
@@ -398,7 +398,7 @@ Speed Grade: -3
 
    Minimum period: 4.696ns (Maximum Frequency: 212.931MHz)
    Minimum input arrival time before clock: 4.911ns
-   Maximum output required time after clock: 5.862ns
+   Maximum output required time after clock: 5.959ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -408,7 +408,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clk'
   Clock period: 4.696ns (frequency: 212.931MHz)
-  Total number of paths / destination ports: 3464 / 541
+  Total number of paths / destination ports: 3464 / 536
 -------------------------------------------------------------------------
 Delay:               4.696ns (Levels of Logic = 4)
   Source:            C01/CuentaV_4 (FF)
@@ -444,7 +444,7 @@ Offset:              4.911ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             9   1.222   0.934  Rst_IBUF (Rst_IBUF)
-     LUT2:I0->O            1   0.203   0.827  C01/Tiempo[9]_CuentaH[9]_equal_8_o104_SW0 (N13)
+     LUT2:I0->O            1   0.203   0.827  C01/Tiempo[9]_CuentaH[9]_equal_8_o104_SW0 (N11)
      LUT6:I2->O           20   0.203   1.092  C01/_n007811 (C01/_n00781)
      FDRE:R                    0.430          C01/CuentaH_1
     ----------------------------------------
@@ -455,22 +455,22 @@ Offset:              4.911ns (Levels of Logic = 3)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
   Total number of paths / destination ports: 19 / 10
 -------------------------------------------------------------------------
-Offset:              5.862ns (Levels of Logic = 3)
-  Source:            C01/CuentaV_4 (FF)
+Offset:              5.959ns (Levels of Logic = 3)
+  Source:            C01/CuentaV_7 (FF)
   Destination:       Vsync (PAD)
   Source Clock:      Clk rising
 
-  Data Path: C01/CuentaV_4 to Vsync
+  Data Path: C01/CuentaV_7 to Vsync
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               8   0.447   1.031  C01/CuentaV_4 (C01/CuentaV_4)
-     LUT4:I1->O            1   0.205   0.827  C01/Vsync_SW0 (N9)
-     LUT6:I2->O            1   0.203   0.579  C01/Vsync (Vsync_OBUF)
+     FD:C->Q               6   0.447   0.973  C01/CuentaV_7 (C01/CuentaV_7)
+     LUT4:I1->O            2   0.205   0.981  C01/Vsync11 (C01/Vsync1)
+     LUT6:I0->O            1   0.203   0.579  C01/Vsync1 (Vsync_OBUF)
      OBUF:I->O                 2.571          Vsync_OBUF (Vsync)
     ----------------------------------------
-    Total                      5.862ns (3.426ns logic, 2.436ns route)
-                                       (58.4% logic, 41.6% route)
+    Total                      5.959ns (3.426ns logic, 2.533ns route)
+                                       (57.5% logic, 42.5% route)
 
 =========================================================================
 
@@ -489,11 +489,11 @@ Clk            |    4.696|         |         |         |
 
 
 Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.68 secs
+Total CPU time to Xst completion: 7.83 secs
  
 --> 
 
-Total memory usage is 229328 kilobytes
+Total memory usage is 4513152 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    4 (   0 filtered)
