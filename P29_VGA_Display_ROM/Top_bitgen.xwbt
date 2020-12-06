@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\SisDigAvan\P29_VGA_Display_ROM\Top.ncd
-OUTFILE=C:\SisDigAvan\P29_VGA_Display_ROM\Top.bit
+INFILE=D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\Top.ncd
+OUTFILE=D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\Top.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=C:\SisDigAvan\P29_VGA_Display_ROM
+WORKINGDIR=D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM
 LICENSE=WebPack
 USER_INFO=176089449_1777494614_0_810

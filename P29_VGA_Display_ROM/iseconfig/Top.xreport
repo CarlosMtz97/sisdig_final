@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-12-06T11:29:50</DateModified>
+  <DateModified>2020-12-06T11:45:21</DateModified>
   <ModuleName>Top</ModuleName>
   <SummaryTimeStamp>2020-11-17T13:19:14</SummaryTimeStamp>
-  <SavedFilePath>D:/Descargas/P29_VGA_Display_ROM/iseconfig/Top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Descargas/P29_VGA_Display_ROM\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/P29_VGA_Display_ROM/iseconfig/Top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/P29_VGA_Display_ROM\</ImplementationReportsDirectory>
   <DateInitialized>2017-11-07T09:21:51</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.16 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: Top.prj
 
@@ -108,16 +108,16 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "D:\Descargas\P29_VGA_Display_ROM\ipcore_dir\ROM_1.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\ipcore_dir\ROM_1.vhd" into library work
 Parsing entity <ROM_1>.
 Parsing architecture <ROM_1_a> of entity <rom_1>.
-Parsing VHDL file "D:\Descargas\P29_VGA_Display_ROM\VGA_DISPLAY.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA_DISPLAY.vhd" into library work
 Parsing entity <VGA_DISPLAY>.
 Parsing architecture <Behavioral> of entity <vga_display>.
-Parsing VHDL file "D:\Descargas\P29_VGA_Display_ROM\VGA.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA.vhd" into library work
 Parsing entity <VGA>.
 Parsing architecture <Behavioral> of entity <vga>.
-Parsing VHDL file "D:\Descargas\P29_VGA_Display_ROM\Top.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\Top.vhd" into library work
 Parsing entity <Top>.
 Parsing architecture <Behavioral> of entity <top>.
 
@@ -128,7 +128,7 @@ Parsing architecture <Behavioral> of entity <top>.
 Elaborating entity <Top> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <VGA> (architecture <Behavioral>) with generics from library <work>.
-INFO:HDLCompiler:679 - "D:\Descargas\P29_VGA_Display_ROM\VGA.vhd" Line 164. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA.vhd" Line 164. Case statement is complete. others clause is never selected
 
 Elaborating entity <VGA_DISPLAY> (architecture <Behavioral>) with generics from library <work>.
 
@@ -139,13 +139,13 @@ Elaborating entity <ROM_1> (architecture <ROM_1_a>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <Top>.
-    Related source file is "D:\Descargas\P29_VGA_Display_ROM\Top.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\Top.vhd".
     Summary:
 	no macro.
 Unit <Top> synthesized.
 
 Synthesizing Unit <VGA>.
-    Related source file is "D:\Descargas\P29_VGA_Display_ROM\VGA.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA.vhd".
         MX_HS = 800
         MX_VS = 521
     Found 1-bit register for signal <En_25>.
@@ -184,7 +184,7 @@ Synthesizing Unit <VGA>.
 Unit <VGA> synthesized.
 
 Synthesizing Unit <VGA_DISPLAY>.
-    Related source file is "D:\Descargas\P29_VGA_Display_ROM\VGA_DISPLAY.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\P29_VGA_Display_ROM\VGA_DISPLAY.vhd".
         ImageCols = 30
         ImageRows = 48
         PosCol = 150
@@ -488,12 +488,12 @@ Clk            |    5.083|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 9.99 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.43 secs
  
 --> 
 
-Total memory usage is 4512960 kilobytes
+Total memory usage is 4513024 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    4 (   0 filtered)
