@@ -1,7 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
+<<<<<<< Updated upstream
   <DateModified>2020-12-06T13:38:01</DateModified>
+=======
+  <DateModified>2020-12-06T13:38:50</DateModified>
+>>>>>>> Stashed changes
   <ModuleName>Top</ModuleName>
   <SummaryTimeStamp>2019-12-04T20:34:10</SummaryTimeStamp>
   <SavedFilePath>D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/iseconfig/Top.xreport</SavedFilePath>
