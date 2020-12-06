@@ -26,8 +26,8 @@ use IEEE.std_logic_arith.all;
 
 entity VGA_DISPLAY is
   generic (
-    ImageCols : natural := 256;    -- Image Size, number of Columns
-    ImageRows : natural := 256;    -- Image Size, number of Rows
+    ImageCols : natural := 50;    -- Image Size, number of Columns
+    ImageRows : natural := 50;    -- Image Size, number of Rows
 	 PosCol    : natural := 100;    -- Top left corner column position where image will be drawn
 	 PosRow    : natural := 100);   -- Top left corner row position where image will be drawn
   port (
@@ -92,7 +92,7 @@ begin
 	     if (Xin < ImageCols and Yin < ImageRows) then
 			 Color <= Data; -- ROM pixel
 		  else
-          Color <= "00000111"; -- Red
+          Color <= "11100000"; -- Red
 		  end if;
 		else 
 		    Color <= "00000000"; -- Black
