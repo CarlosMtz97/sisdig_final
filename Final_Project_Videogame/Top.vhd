@@ -1,8 +1,8 @@
 ----------------------------------------------------------------------------------
 -- Company:        ITESM - CQ
--- Engineer:       Elmer Homero
+-- Engineer:       
 -- 
--- Create Date:    07:21:51 11/13/2019 
+-- Create Date:    
 -- Design Name: 
 -- Module Name:    Top - Behavioral 
 -- Project Name: 
@@ -36,9 +36,7 @@ entity Top is
            Green       : out STD_LOGIC_VECTOR (2 downto 0);
            Blue        : out STD_LOGIC_VECTOR (1 downto 0);
            Hsync       : out STD_LOGIC;
-           Vsync       : out STD_LOGIC;
-			  anode       : out STD_LOGIC_VECTOR(3 downto 0);
-			  segment     : out STD_LOGIC_VECTOR(7 downto 0));
+           Vsync       : out STD_LOGIC);
 end Top;
 
 architecture Behavioral of Top is
