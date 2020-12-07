@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 07 09:52:18 2020
+# Process ID: 14896
+# Log file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_project/planAhead_run_1/planAhead.log
+# Journal file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_project/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_project/pa.fromNetlist.tcl
