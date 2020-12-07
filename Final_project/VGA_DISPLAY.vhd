@@ -25,8 +25,8 @@ use IEEE.std_logic_unsigned.all;
 
 entity VGA_DISPLAY is
   generic (
-    ImageCols : natural := 256;    -- Image Size, number of Columns
-    ImageRows : natural := 256;    -- Image Size, number of Rows
+    ImageCols : natural := 50;    -- Image Size, number of Columns
+    ImageRows : natural := 50;    -- Image Size, number of Rows
 	 PosCol    : natural := 100;    -- Top left corner column position where image will be drawn
 	 PosRow    : natural := 100);   -- Top left corner row position where image will be drawn
   port (

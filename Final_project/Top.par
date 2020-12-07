@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-P1P85NC::  Mon Dec 07 10:21:35 2020
+DESKTOP-P1P85NC::  Mon Dec 07 10:29:05 2020
 
 par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
 
@@ -31,9 +31,9 @@ Slice Logic Utilization:
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                         75 out of   9,112    1%
-    Number used as logic:                       73 out of   9,112    1%
-      Number using O6 output only:              47
+  Number of Slice LUTs:                         80 out of   9,112    1%
+    Number used as logic:                       78 out of   9,112    1%
+      Number using O6 output only:              52
       Number using O5 output only:              16
       Number using O5 and O6:                   10
       Number used as ROM:                        0
@@ -44,12 +44,12 @@ Slice Logic Utilization:
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    27 out of   2,278    1%
+  Number of occupied Slices:                    26 out of   2,278    1%
   Number of MUXCYs used:                        32 out of   4,556    1%
-  Number of LUT Flip Flop pairs used:           75
-    Number with an unused Flip Flop:            41 out of      75   54%
-    Number with an unused LUT:                   0 out of      75    0%
-    Number of fully used LUT-FF pairs:          34 out of      75   45%
+  Number of LUT Flip Flop pairs used:           80
+    Number with an unused Flip Flop:            46 out of      80   57%
+    Number with an unused LUT:                   0 out of      80    0%
+    Number of fully used LUT-FF pairs:          34 out of      80   42%
     Number of slice register sites lost
       to control set restrictions:               0 out of  18,224    0%
 
@@ -98,13 +98,13 @@ Finished initial Timing Analysis.  REAL time: 3 secs
 Starting Router
 
 
-Phase  1  : 574 unrouted;      REAL time: 3 secs 
+Phase  1  : 580 unrouted;      REAL time: 3 secs 
 
-Phase  2  : 346 unrouted;      REAL time: 3 secs 
+Phase  2  : 353 unrouted;      REAL time: 3 secs 
 
-Phase  3  : 105 unrouted;      REAL time: 4 secs 
+Phase  3  : 113 unrouted;      REAL time: 3 secs 
 
-Phase  4  : 105 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  4  : 113 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
 Updating file: Top.ncd with current fully routed design.
 
@@ -140,7 +140,7 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net Clk | SETUP       |         N/A|     4.619ns|     N/A|           0
+  Autotimespec constraint for clock net Clk | SETUP       |         N/A|     5.182ns|     N/A|           0
   _BUFGP                                    | HOLD        |     0.420ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
@@ -158,7 +158,7 @@ Generating Pad Report.
 All signals are completely routed.
 
 Total REAL time to PAR completion: 5 secs 
-Total CPU time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 4 secs 
 
 Peak Memory Usage:  4458 MB
 
