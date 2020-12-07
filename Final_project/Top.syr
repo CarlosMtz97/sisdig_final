@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Reading design: Top.prj
 
@@ -196,7 +196,7 @@ WARNING:Xst:647 - Input <leftB> is never used. This port will be preserved and l
 WARNING:Xst:647 - Input <upB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <downB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 8-bit register for signal <Color>.
-    Found 16-bit adder for signal <Address> created at line 73.
+    Found 12-bit adder for signal <Address> created at line 73.
     Found 10-bit comparator greater for signal <Xin[9]_GND_8_o_LessThan_2_o> created at line 80
     Found 10-bit comparator greater for signal <Yin[9]_GND_8_o_LessThan_3_o> created at line 80
     Summary:
@@ -212,7 +212,7 @@ Macro Statistics
 # Adders/Subtractors                                   : 6
  10-bit adder                                          : 2
  10-bit subtractor                                     : 2
- 16-bit adder                                          : 1
+ 12-bit adder                                          : 1
  2-bit adder                                           : 1
 # Registers                                            : 5
  1-bit register                                        : 1
@@ -246,7 +246,7 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # Adders/Subtractors                                   : 4
  10-bit subtractor                                     : 2
- 16-bit adder                                          : 1
+ 12-bit adder                                          : 1
  2-bit adder                                           : 1
 # Counters                                             : 3
  10-bit up counter                                     : 2
@@ -279,7 +279,7 @@ Optimizing unit <Top> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 1.
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 0.
 
 Final Macro Processing ...
 
@@ -311,25 +311,25 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 133
+# BELS                             : 147
 #      GND                         : 2
 #      INV                         : 5
 #      LUT1                        : 18
-#      LUT2                        : 21
+#      LUT2                        : 18
 #      LUT3                        : 5
-#      LUT4                        : 6
-#      LUT5                        : 4
-#      LUT6                        : 32
-#      MUXCY                       : 18
+#      LUT4                        : 13
+#      LUT5                        : 5
+#      LUT6                        : 26
+#      MUXCY                       : 25
 #      VCC                         : 2
-#      XORCY                       : 20
+#      XORCY                       : 28
 # FlipFlops/Latches                : 35
 #      FD                          : 19
 #      FDC                         : 5
 #      FDE                         : 2
 #      FDRE                        : 9
-# RAMS                             : 32
-#      RAMB16BWER                  : 32
+# RAMS                             : 3
+#      RAMB8BWER                   : 3
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 11
@@ -344,14 +344,14 @@ Selected Device : 6slx16csg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:              35  out of  18224     0%  
- Number of Slice LUTs:                   91  out of   9112     0%  
-    Number used as Logic:                91  out of   9112     0%  
+ Number of Slice LUTs:                   90  out of   9112     0%  
+    Number used as Logic:                90  out of   9112     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     93
-   Number with an unused Flip Flop:      58  out of     93    62%  
-   Number with an unused LUT:             2  out of     93     2%  
-   Number of fully used LUT-FF pairs:    33  out of     93    35%  
+ Number of LUT Flip Flop pairs used:     92
+   Number with an unused Flip Flop:      57  out of     92    61%  
+   Number with an unused LUT:             2  out of     92     2%  
+   Number of fully used LUT-FF pairs:    33  out of     92    35%  
    Number of unique control sets:         4
 
 IO Utilization: 
@@ -359,8 +359,8 @@ IO Utilization:
  Number of bonded IOBs:                  12  out of    232     5%  
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:               32  out of     32   100%  
-    Number using Block RAM only:         32
+ Number of Block RAM/FIFO:                2  out of     32     6%  
+    Number using Block RAM only:          2
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
 
 ---------------------------
@@ -381,12 +381,12 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)                                                                                                             | Load  |
------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-------+
-Clk                                | BUFGP                                                                                                                             | 67    |
-C02/C01/N1                         | NONE(C02/C01/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 32    |
------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+-------+
+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                           | Load  |
+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------+
+Clk                                | BUFGP                                                                                                                           | 38    |
+C02/C01/N1                         | NONE(C02/C01/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram)| 3     |
+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
@@ -397,9 +397,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 4.700ns (Maximum Frequency: 212.777MHz)
+   Minimum period: 4.873ns (Maximum Frequency: 205.223MHz)
    Minimum input arrival time before clock: 4.911ns
-   Maximum output required time after clock: 5.833ns
+   Maximum output required time after clock: 5.918ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -408,28 +408,34 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clk'
-  Clock period: 4.700ns (frequency: 212.777MHz)
-  Total number of paths / destination ports: 3456 / 533
+  Clock period: 4.873ns (frequency: 205.223MHz)
+  Total number of paths / destination ports: 2585 / 88
 -------------------------------------------------------------------------
-Delay:               4.700ns (Levels of Logic = 4)
-  Source:            C01/CuentaV_4 (FF)
-  Destination:       C02/C01/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
+Delay:               4.873ns (Levels of Logic = 10)
+  Source:            C01/CuentaH_4 (FF)
+  Destination:       C02/C01/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram (RAM)
   Source Clock:      Clk rising
   Destination Clock: Clk rising
 
-  Data Path: C01/CuentaV_4 to C02/C01/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+  Data Path: C01/CuentaH_4 to C02/C01/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               7   0.447   1.118  C01/CuentaV_4 (C01/CuentaV_4)
-     LUT6:I1->O            4   0.203   0.684  C01/Msub_Y_cy<5>11 (C01/Msub_Y_cy<5>)
-     LUT2:I1->O            5   0.205   0.819  C01/Msub_Y_xor<6>11 (Y_emb<6>)
-     begin scope: 'C02/C01:addra<14>'
-     LUT2:I0->O            8   0.203   0.802  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/out11 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.ram_ena)
-     RAMB16BWER:ENA            0.220          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+     FDRE:C->Q             7   0.447   1.118  C01/CuentaH_4 (C01/CuentaH_4)
+     LUT6:I1->O            5   0.203   0.715  C01/Msub_X_cy<5>11 (C01/Msub_X_cy<5>)
+     LUT5:I4->O            1   0.205   0.000  C02/Madd_Address_lut<6> (C02/Madd_Address_lut<6>)
+     MUXCY:S->O            1   0.172   0.000  C02/Madd_Address_cy<6> (C02/Madd_Address_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  C02/Madd_Address_cy<7> (C02/Madd_Address_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  C02/Madd_Address_cy<8> (C02/Madd_Address_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  C02/Madd_Address_cy<9> (C02/Madd_Address_cy<9>)
+     MUXCY:CI->O           0   0.019   0.000  C02/Madd_Address_cy<10> (C02/Madd_Address_cy<10>)
+     XORCY:CI->O           3   0.180   0.755  C02/Madd_Address_xor<11> (C02/Address<11>)
+     begin scope: 'C02/C01:addra<11>'
+     LUT2:I0->O            1   0.203   0.579  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ADDR[1]_PWR_16_o_equal_3_o<1>1 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ena_array<2>)
+     RAMB8BWER:ENAWREN         0.220          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram
     ----------------------------------------
-    Total                      4.700ns (1.278ns logic, 3.422ns route)
-                                       (27.2% logic, 72.8% route)
+    Total                      4.873ns (1.706ns logic, 3.167ns route)
+                                       (35.0% logic, 65.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
@@ -456,22 +462,22 @@ Offset:              4.911ns (Levels of Logic = 3)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
   Total number of paths / destination ports: 19 / 10
 -------------------------------------------------------------------------
-Offset:              5.833ns (Levels of Logic = 3)
-  Source:            C01/CuentaV_4 (FF)
+Offset:              5.918ns (Levels of Logic = 3)
+  Source:            C01/CuentaV_8 (FF)
   Destination:       Vsync (PAD)
   Source Clock:      Clk rising
 
-  Data Path: C01/CuentaV_4 to Vsync
+  Data Path: C01/CuentaV_8 to Vsync
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               7   0.447   1.002  C01/CuentaV_4 (C01/CuentaV_4)
-     LUT4:I1->O            1   0.205   0.827  C01/Vsync_SW0 (N9)
-     LUT6:I2->O            1   0.203   0.579  C01/Vsync (Vsync_OBUF)
+     FD:C->Q               6   0.447   0.992  C01/CuentaV_8 (C01/CuentaV_8)
+     LUT4:I0->O            1   0.203   0.924  C01/Vsync_SW0 (N9)
+     LUT6:I1->O            1   0.203   0.579  C01/Vsync (Vsync_OBUF)
      OBUF:I->O                 2.571          Vsync_OBUF (Vsync)
     ----------------------------------------
-    Total                      5.833ns (3.426ns logic, 2.407ns route)
-                                       (58.7% logic, 41.3% route)
+    Total                      5.918ns (3.424ns logic, 2.494ns route)
+                                       (57.9% logic, 42.1% route)
 
 =========================================================================
 
@@ -483,18 +489,18 @@ Clock to Setup on destination clock Clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk            |    4.700|         |         |         |
+Clk            |    4.873|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 11.00 secs
-Total CPU time to Xst completion: 11.97 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.38 secs
  
 --> 
 
-Total memory usage is 4513344 kilobytes
+Total memory usage is 4511232 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    5 (   0 filtered)

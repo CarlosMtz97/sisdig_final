@@ -48,7 +48,7 @@ architecture Behavioral of VGA_DISPLAY is
   component ROM_1
   port (
      CLKA  : in  STD_LOGIC;
-	  ADDRA : in  STD_LOGIC_VECTOR(15 downto 0);
+	  ADDRA : in  STD_LOGIC_VECTOR(11 downto 0);
 	  DOUTA : out STD_LOGIC_VECTOR( 7 downto 0));
   end component;
   
@@ -58,7 +58,7 @@ architecture Behavioral of VGA_DISPLAY is
   signal Color :  STD_LOGIC_VECTOR(7 downto 0);
   
   -- ROM memory Address and Data Bus
-  signal Address: STD_LOGIC_VECTOR(15 downto 0);
+  signal Address: STD_LOGIC_VECTOR(11 downto 0);
   signal Data:    STD_LOGIC_VECTOR( 7 downto 0);
 
   signal Location : natural range 0 to ((ImageCols * ImageRows) - 1);  
@@ -70,7 +70,7 @@ begin
      ADDRA => Address,
      DOUTA => Data);
 	  
-  Address <= Xin(7 downto 0) + (Yin(7 downto 0) & "00000000");
+  Address <= Xin(7 downto 0) + (Yin(7 downto 0) & "0000");
 
   process (Clk)
   begin

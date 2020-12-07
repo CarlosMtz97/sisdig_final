@@ -42,7 +42,7 @@ SET_PARAMETER Algorithm Minimum_Area
 SET_PARAMETER Primitive 8kx2
 SET_PARAMETER Assume_Synchronous_Clk false
 SET_PARAMETER Write_Width_A 8
-SET_PARAMETER Write_Depth_A 65536
+SET_PARAMETER Write_Depth_A 2500
 SET_PARAMETER Read_Width_A 8
 SET_PARAMETER Operating_Mode_A WRITE_FIRST
 SET_PARAMETER Enable_A Always_Enabled

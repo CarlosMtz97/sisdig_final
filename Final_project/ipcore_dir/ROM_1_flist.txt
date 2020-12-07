@@ -52,4 +52,5 @@ ROM_1\simulation\timing\wave_mti.do
 ROM_1\simulation\timing\wave_ncsim.sv
 ROM_1_flist.txt
 ROM_1_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
 summary.log
