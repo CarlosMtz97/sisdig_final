@@ -26,17 +26,17 @@ use IEEE.std_logic_arith.all;
 
 entity VGA_DISPLAY is
   Generic
-	 ( n : integer := 14;   -- Number of Address bus lines, for an image of 128x128 pixels
-	   m : integer := 8);   -- Number of Data bus lines
+  ( n         : integer := 14;                    -- Number of Address bus lines, for an image of 128x128 pixels
+	 m         : integer := 8);                    -- Number of Data bus lines
   port (
 	 Xin       : in  STD_LOGIC_VECTOR(9 downto 0); -- Column screen coordinate
 	 Yin       : in  STD_LOGIC_VECTOR(9 downto 0); -- Row screen coordinate
-	 En        : in  STD_LOGIC; -- When '1', pixels can be drawn 
-	 Enable60  : in STD_LOGIC; --Enable for duck
-	 rightB    : in STD_LOGIC; --Right button
-	 leftB     : in STD_LOGIC; --Left button
-	 rst       : in STD_LOGIC; --Reset
-	 clk       : in STD_LOGIC; --Clock from FPGA
+	 En        : in  STD_LOGIC;                    -- When '1', pixels can be drawn 
+	 Enable60  : in  STD_LOGIC;                    -- Enable for cookie
+	 rightB    : in  STD_LOGIC;                    -- Right button
+	 leftB     : in  STD_LOGIC;                    -- Left button
+	 rst       : in  STD_LOGIC;                    -- Reset
+	 clk       : in  STD_LOGIC;                    -- Clock from FPGA
 	 R   		  : out STD_LOGIC_VECTOR(2 downto 0); -- 3-bit Red channel
 	 G   		  : out STD_LOGIC_VECTOR(2 downto 0); -- 3-bit Green channel
 	 B   		  : out STD_LOGIC_VECTOR(1 downto 0));-- 2-bit Blue channel
@@ -50,8 +50,8 @@ architecture Behavioral of VGA_DISPLAY is
   signal Color : STD_LOGIC_VECTOR(7 downto 0); 
   
   --Addresses for the different images that will be displayed
-  signal AddressChar : STD_LOGIC_VECTOR(n-1 downto 0); --Duck
-  signal Data:    STD_LOGIC_VECTOR(m-1 downto 0);
+  signal AddressChar : STD_LOGIC_VECTOR(n-1 downto 0); --Super Cookie
+  signal Data        : STD_LOGIC_VECTOR(m-1 downto 0);
   
   --Types of roms that will be used
   type objectImage is array (0 to (64**2) - 1) of STD_LOGIC_VECTOR (7 downto 0);
@@ -59,7 +59,7 @@ architecture Behavioral of VGA_DISPLAY is
   type kokoroImage is array (0 to (2**8) - 1) of STD_LOGIC_VECTOR (7 downto 0); --n=8 (8 bits) porque 2^n=2^8=256
  
   
-  constant duck : characterImage := (
+  constant cookieS : characterImage := (
 x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",
 x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",
 x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",
@@ -1085,13 +1085,14 @@ x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"
 x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",
 x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0");
   
- -- signal next_state, present_state : State_Values;  
+
+	
 	--Embbeded signals
 	--For moving an object in the x axis
   signal xButton  : integer range 0 to 640;
-   --For making objects fall 
-  signal yButton  : integer range 0 to 480;
-  signal yButton2 : integer range 0 to 480;
+--   --For making objects fall 
+--  signal yButton  : integer range 0 to 480;
+--  signal yButton2 : integer range 0 to 480;
   
   --Offsets of all objects in screen
   signal offsetXP  : STD_LOGIC_VECTOR (9 downto 0);
@@ -1100,8 +1101,7 @@ x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"E0",x"
   
   --Addresses that are used for making large operations
   signal SuperAddressP : STD_LOGIC_VECTOR (16 downto 0);
-
- 
+  
 begin
 
    --Calculates the address that will be taken from the memory for each object
@@ -1109,11 +1109,11 @@ begin
   AddressChar <= SuperAddressP(13 downto 0);
   
   
- --The next process updates the duck's positions according to the inputs from buttons
-  Pato: process (rightB, leftB, enable60,rst, xButton, clk)
+ --The next process updates the cookie's positions according to the inputs from buttons
+  Cookie: process (rightB, leftB, enable60,rst, xButton, clk)
   begin
 	 if (rst = '1') then
-		--Initial values (places duck in the middle)
+		--Initial values (places cookie in the middle)
 		 xbutton <= 256;
 		 offsetYP <= "0101100000";
 		 offsetXP <= CONV_STD_LOGIC_VECTOR(512, 10);
@@ -1130,7 +1130,7 @@ begin
 			end if;
 		end if;
 	 end if;
-  end process Pato;
+  end process Cookie;
   
   -- Make a drawing of 4 colored bars
   -- Red Green Blue White
@@ -1139,9 +1139,9 @@ begin
     -- Check if pixel is in the active zone
 	 if (En = '1') then
 			
-			--For drawing the duck, we must check if the Xin and Yin are in the place the duck will be drawn
+			--For drawing the cookie, we must check if the Xin and Yin are in the place the cookie will be drawn
 			  if ((Xin>= (512 - xButton) and Xin < (640 - xButton)) and Yin > 352) then
-				 Color <= duck (conv_integer(AddressChar));
+				 Color <= cookieS (conv_integer(AddressChar));
 			  else
 				 --In any other case, draw everything black
 				 Color <= "11100000"; -- RED
