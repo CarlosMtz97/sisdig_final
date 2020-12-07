@@ -8,6 +8,7 @@ ERROR:sim -    Coregen is looking for C:\Users\audre\Desktop\ppm\cookie.coe
 ERROR:sim - An invalid core configuration has been detected during
 ERROR:sim -    Customization. Core parameters will be reset to their default
    values.
+<<<<<<< Updated upstream
 WARNING:sim - A core named 'blk_mem_gen_v7_3' already exists in the project.
    Output products for this core may be overwritten.
 Resolving generics for 'blk_mem_gen_v7_3'...
@@ -73,4 +74,7 @@ INFO:sim:948 - Finished FLIST file generation.
 Launching README viewer...
 Moving files to output directory...
 Finished moving files to output directory
+=======
+Cancelled executing Tcl generator.
+>>>>>>> Stashed changes
 Wrote CGP file for project 'ROM_1'.
