@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.17 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: Top.prj
 
@@ -186,19 +186,19 @@ Synthesizing Unit <VGA_DISPLAY>.
         m = 8
     Found 10-bit register for signal <offsetXP>.
     Found 10-bit register for signal <xButton>.
-    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_17_OUT> created at line 1143.
-    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_19_OUT> created at line 1143.
-    Found 17-bit adder for signal <SuperAddressP> created at line 1108.
-    Found 10-bit adder for signal <xButton[9]_GND_8_o_add_8_OUT> created at line 1129.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_1_OUT<9:0>> created at line 1108.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_2_OUT<9:0>> created at line 1108.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_7_OUT<9:0>> created at line 1126.
-    Found 16384x8-bit Read Only RAM for signal <AddressChar[13]_PWR_9_o_wide_mux_21_OUT>
-    Found 10-bit comparator greater for signal <GND_8_o_xButton[9]_LessThan_6_o> created at line 1124
-    Found 10-bit comparator greater for signal <xButton[9]_PWR_9_o_LessThan_8_o> created at line 1127
-    Found 11-bit comparator lessequal for signal <n0026> created at line 1143
-    Found 11-bit comparator greater for signal <GND_8_o_GND_8_o_LessThan_20_o> created at line 1143
-    Found 10-bit comparator greater for signal <GND_8_o_Yin[9]_LessThan_21_o> created at line 1143
+    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_17_OUT> created at line 2167.
+    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_19_OUT> created at line 2167.
+    Found 17-bit adder for signal <SuperAddressP> created at line 2132.
+    Found 10-bit adder for signal <xButton[9]_GND_8_o_add_8_OUT> created at line 2153.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_1_OUT<9:0>> created at line 2132.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_2_OUT<9:0>> created at line 2132.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_7_OUT<9:0>> created at line 2150.
+    Found 16384x8-bit Read Only RAM for signal <AddressChar[13]_GND_8_o_wide_mux_21_OUT>
+    Found 10-bit comparator greater for signal <GND_8_o_xButton[9]_LessThan_6_o> created at line 2148
+    Found 10-bit comparator greater for signal <xButton[9]_PWR_9_o_LessThan_8_o> created at line 2151
+    Found 11-bit comparator lessequal for signal <n0026> created at line 2167
+    Found 11-bit comparator greater for signal <GND_8_o_GND_8_o_LessThan_20_o> created at line 2167
+    Found 10-bit comparator greater for signal <GND_8_o_Yin[9]_LessThan_21_o> created at line 2167
     Summary:
 	inferred   1 RAM(s).
 	inferred   6 Adder/Subtractor(s).
@@ -257,7 +257,7 @@ INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmet
 
 
 Synthesizing (advanced) Unit <Top>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -360,7 +360,7 @@ INFO:Xst:2261 - The FF/Latch <C01/FreqDiv.Count_1> in Unit <Top> is equivalent t
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 22.
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 16.
 WARNING:Xst:1426 - The value init of the FF/Latch C02/xButton_8_LD hinder the constant cleaning in the block Top.
    You should achieve better results by setting this init to 1.
 FlipFlop C02/xButton_0 has been replicated 2 time(s)
@@ -395,18 +395,17 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2799
+# BELS                             : 1368
 #      GND                         : 1
 #      INV                         : 5
-#      LUT1                        : 37
-#      LUT2                        : 36
-#      LUT3                        : 34
-#      LUT4                        : 69
-#      LUT5                        : 207
-#      LUT6                        : 1899
+#      LUT1                        : 38
+#      LUT2                        : 82
+#      LUT3                        : 62
+#      LUT4                        : 133
+#      LUT5                        : 266
+#      LUT6                        : 611
 #      MUXCY                       : 63
-#      MUXF7                       : 264
-#      MUXF8                       : 125
+#      MUXF7                       : 48
 #      VCC                         : 1
 #      XORCY                       : 58
 # FlipFlops/Latches                : 68
@@ -431,14 +430,14 @@ Selected Device : 6slx16csg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:              68  out of  18224     0%  
- Number of Slice LUTs:                 2287  out of   9112    25%  
-    Number used as Logic:              2287  out of   9112    25%  
+ Number of Slice LUTs:                 1197  out of   9112    13%  
+    Number used as Logic:              1197  out of   9112    13%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2293
-   Number with an unused Flip Flop:    2225  out of   2293    97%  
-   Number with an unused LUT:             6  out of   2293     0%  
-   Number of fully used LUT-FF pairs:    62  out of   2293     2%  
+ Number of LUT Flip Flop pairs used:   1203
+   Number with an unused Flip Flop:    1135  out of   1203    94%  
+   Number with an unused LUT:             6  out of   1203     0%  
+   Number of fully used LUT-FF pairs:    62  out of   1203     5%  
    Number of unique control sets:         7
 
 IO Utilization: 
@@ -483,7 +482,7 @@ Speed Grade: -3
 
    Minimum period: 4.033ns (Maximum Frequency: 247.936MHz)
    Minimum input arrival time before clock: 5.316ns
-   Maximum output required time after clock: 14.903ns
+   Maximum output required time after clock: 26.343ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -538,14 +537,14 @@ Offset:              5.316ns (Levels of Logic = 4)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
-  Total number of paths / destination ports: 373911 / 10
+  Total number of paths / destination ports: 4099802 / 10
 -------------------------------------------------------------------------
-Offset:              14.903ns (Levels of Logic = 13)
+Offset:              26.343ns (Levels of Logic = 24)
   Source:            C01/CuentaH_0 (FF)
-  Destination:       Red<1> (PAD)
+  Destination:       Green<2> (PAD)
   Source Clock:      Clk rising
 
-  Data Path: C01/CuentaH_0 to Red<1>
+  Data Path: C01/CuentaH_0 to Green<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
@@ -553,19 +552,30 @@ Offset:              14.903ns (Levels of Logic = 13)
      LUT6:I1->O            8   0.203   0.803  C01/Msub_X_cy<5>11 (C01/Msub_X_cy<5>)
      LUT2:I1->O            4   0.205   0.683  C01/Msub_X_xor<6>11 (X_emb<6>)
      MUXCY:DI->O           1   0.145   0.000  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<6> (C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<6>)
-     XORCY:CI->O           4   0.180   0.788  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_xor<7> (C02/GND_8_o_GND_8_o_sub_1_OUT<7>)
-     LUT2:I0->O          520   0.203   2.321  C02/Madd_SuperAddressP_Madd_lut<7>1 (C02/Madd_SuperAddressP_Madd_lut<7>)
-     LUT5:I2->O            1   0.205   0.924  C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT14821_171_SW0 (N143)
-     LUT6:I1->O            1   0.203   0.000  C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT14821_171 (C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT14821_171)
-     MUXF7:I0->O           1   0.131   0.000  C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT14821_15_f7_0 (C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT14821_15_f71)
-     MUXF8:I0->O           1   0.144   0.827  C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT14821_13_f8_0 (C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT14821_13_f81)
-     LUT6:I2->O            1   0.203   0.827  C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT14821_7_f7 (C02/Mram_AddressChar[13]_PWR_9_o_wide_mux_21_OUT14821_7_f7)
-     LUT6:I2->O            1   0.203   0.580  C02/SuperAddressP<13>1 (C02/AddressChar[13]_PWR_9_o_wide_mux_21_OUT<6>)
-     LUT5:I4->O            1   0.205   0.579  C02/Mmux_Color71 (Red_1_OBUF)
-     OBUF:I->O                 2.571          Red_1_OBUF (Red<1>)
+     MUXCY:CI->O           1   0.019   0.000  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<7> (C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<7>)
+     MUXCY:CI->O           0   0.019   0.000  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<8> (C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<8>)
+     XORCY:CI->O           2   0.180   0.981  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_xor<9> (C02/GND_8_o_GND_8_o_sub_1_OUT<9>)
+     LUT6:I0->O          350   0.203   2.440  C02/Madd_SuperAddressP_Madd_xor<9>11 (C02/SuperAddressP<9>)
+     LUT6:I0->O            1   0.203   0.924  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417112 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417111)
+     LUT6:I1->O            1   0.203   0.580  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417113 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417112)
+     LUT6:I5->O            1   0.205   0.000  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT4171111_G (N851)
+     MUXF7:I1->O          10   0.140   1.085  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT4171111 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT4171)
+     LUT4:I1->O            1   0.205   0.944  SF11431 (SF1143)
+     LUT6:I0->O            1   0.203   0.924  SF126915 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT67812384)
+     LUT6:I1->O            1   0.203   0.827  SF126917 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT67812386)
+     LUT4:I0->O            1   0.203   0.684  SF126918_SW0 (N632)
+     LUT6:I4->O            2   0.203   0.961  SF126918 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT67812387)
+     LUT5:I0->O            6   0.203   0.992  SF126942 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT678123111)
+     LUT5:I1->O            1   0.203   0.944  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123216_SW1 (N774)
+     LUT6:I0->O            1   0.203   0.944  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123216 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123215)
+     LUT6:I0->O            1   0.203   0.808  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123217 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123216)
+     LUT6:I3->O            1   0.205   0.808  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123221 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123220)
+     LUT6:I3->O            1   0.205   0.924  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123222 (C02/AddressChar[13]_GND_8_o_wide_mux_21_OUT<4>)
+     LUT5:I0->O            1   0.203   0.579  C02/Mmux_Color51 (Green_2_OBUF)
+     OBUF:I->O                 2.571          Green_2_OBUF (Green<2>)
     ----------------------------------------
-    Total                     14.903ns (5.248ns logic, 9.655ns route)
-                                       (35.2% logic, 64.8% route)
+    Total                     26.343ns (7.185ns logic, 19.158ns route)
+                                       (27.3% logic, 72.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Rst'
@@ -607,12 +617,12 @@ Rst            |         |    4.095|         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 216.00 secs
-Total CPU time to Xst completion: 215.40 secs
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.83 secs
  
 --> 
 
-Total memory usage is 4565312 kilobytes
+Total memory usage is 4583552 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    2 (   0 filtered)

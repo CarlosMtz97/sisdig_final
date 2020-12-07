@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Mon Dec 07 12:47:13 2020">
+<application name="pn" timeStamp="Mon Dec 07 11:53:25 2020">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="5FAA33F4D26246EE834265628078D549" type="project"/>
-<property name="ProjectIteration" value="95" type="project"/>
+<property name="ProjectIteration" value="94" type="project"/>
 <property name="ProjectFile" value="D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Final_Project_Videogame.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2017-11-07T09:19:37" type="project"/>
 </section>
@@ -22,7 +22,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UseSmartGuide" value="false" type="design"/>
 <property name="PROP_intProjectCreationTimestamp" value="2017-11-07T09:19:37" type="design"/>
 <property name="PROP_intWbtProjectID" value="5FAA33F4D26246EE834265628078D549" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="95" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="94" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_xilxBitgStart_IntDone" value="true" type="process"/>
