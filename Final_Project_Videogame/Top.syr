@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.16 secs
  
 --> Reading design: Top.prj
 
@@ -105,25 +105,16 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA_DISPLAY.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA_DISPLAY.vhd" into library work
 Parsing entity <VGA_DISPLAY>.
 Parsing architecture <Behavioral> of entity <vga_display>.
-Parsing VHDL file "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA.vhd" into library work
 Parsing entity <VGA>.
 Parsing architecture <Behavioral> of entity <vga>.
-Parsing VHDL file "D:\ProyectosSisDigAv\Final_Project_Videogame\score.vhd" into library work
-Parsing entity <score>.
-Parsing architecture <Behavioral> of entity <score>.
-Parsing VHDL file "D:\ProyectosSisDigAv\Final_Project_Videogame\freqDividerY.vhd" into library work
-Parsing entity <freqDividerY>.
-Parsing architecture <Behavioral> of entity <freqdividery>.
-Parsing VHDL file "D:\ProyectosSisDigAv\Final_Project_Videogame\freqDividerF.vhd" into library work
-Parsing entity <freqDividerF>.
-Parsing architecture <Behavioral> of entity <freqdividerf>.
-Parsing VHDL file "D:\ProyectosSisDigAv\Final_Project_Videogame\freqDivider60.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\freqDivider60.vhd" into library work
 Parsing entity <freqDivider60>.
 Parsing architecture <Behavioral> of entity <freqdivider60>.
-Parsing VHDL file "D:\ProyectosSisDigAv\Final_Project_Videogame\Top.vhd" into library work
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\Top.vhd" into library work
 Parsing entity <Top>.
 Parsing architecture <Behavioral> of entity <top>.
 
@@ -134,36 +125,24 @@ Parsing architecture <Behavioral> of entity <top>.
 Elaborating entity <Top> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <VGA> (architecture <Behavioral>) with generics from library <work>.
-INFO:HDLCompiler:679 - "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA.vhd" Line 164. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA.vhd" Line 164. Case statement is complete. others clause is never selected
 
 Elaborating entity <VGA_DISPLAY> (architecture <Behavioral>) with generics from library <work>.
-WARNING:HDLCompiler:92 - "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA_DISPLAY.vhd" Line 3316: addresskok should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA_DISPLAY.vhd" Line 3332: addressobj2 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA_DISPLAY.vhd" Line 3334: addressobj2 should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA_DISPLAY.vhd" Line 3385: rst should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA_DISPLAY.vhd" Line 3388: clk should be on the sensitivity list of the process
 
 Elaborating entity <freqDivider60> (architecture <Behavioral>) from library <work>.
-
-Elaborating entity <freqDividerF> (architecture <Behavioral>) from library <work>.
-
-Elaborating entity <freqDividerY> (architecture <Behavioral>) from library <work>.
-
-Elaborating entity <score> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "D:\ProyectosSisDigAv\Final_Project_Videogame\score.vhd" Line 137. Case statement is complete. others clause is never selected
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <Top>.
-    Related source file is "D:\ProyectosSisDigAv\Final_Project_Videogame\Top.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\Top.vhd".
     Summary:
 	no macro.
 Unit <Top> synthesized.
 
 Synthesizing Unit <VGA>.
-    Related source file is "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA.vhd".
         MX_HS = 800
         MX_VS = 521
     Found 1-bit register for signal <En_25>.
@@ -202,175 +181,71 @@ Synthesizing Unit <VGA>.
 Unit <VGA> synthesized.
 
 Synthesizing Unit <VGA_DISPLAY>.
-    Related source file is "D:\ProyectosSisDigAv\Final_Project_Videogame\VGA_DISPLAY.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA_DISPLAY.vhd".
         n = 14
         m = 8
-    Found 6-bit register for signal <offsetXC>.
-    Found 10-bit register for signal <xButton>.
     Found 10-bit register for signal <offsetXP>.
-    Found 9-bit register for signal <yButton>.
-    Found 9-bit register for signal <yButton2>.
-    Found 10-bit register for signal <offsetYF>.
-    Found 10-bit register for signal <offsetYA>.
-    Found 10-bit register for signal <offsetYC>.
-    Found 1-bit register for signal <flagScore>.
-    Found 1-bit register for signal <FlagOut>.
-    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_70_OUT> created at line 3336.
-    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_72_OUT> created at line 3336.
-    Found 17-bit adder for signal <SuperAddressP> created at line 3213.
-    Found 14-bit adder for signal <SuperAddressC> created at line 3216.
-    Found 16-bit adder for signal <SuperAddressF> created at line 3219.
-    Found 16-bit adder for signal <SuperAddressA> created at line 3222.
-    Found 10-bit adder for signal <xButton[9]_GND_8_o_add_24_OUT> created at line 3259.
-    Found 9-bit adder for signal <yButton[8]_GND_8_o_add_32_OUT> created at line 3280.
-    Found 9-bit adder for signal <yButton2[8]_GND_8_o_add_38_OUT> created at line 3299.
-    Found 7-bit adder for signal <n0308[6:0]> created at line 3314.
-    Found 10-bit adder for signal <offsetYC[9]_GND_8_o_add_48_OUT> created at line 3314.
-    Found 10-bit adder for signal <GND_8_o_offsetYF[9]_add_55_OUT> created at line 3322.
-    Found 10-bit adder for signal <GND_8_o_offsetYA[9]_add_64_OUT> created at line 3331.
-    Found 10-bit adder for signal <offsetYF[9]_GND_8_o_add_80_OUT> created at line 3354.
-    Found 10-bit adder for signal <offsetYA[9]_GND_8_o_add_89_OUT> created at line 3371.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_1_OUT<9:0>> created at line 3213.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_2_OUT<9:0>> created at line 3213.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_5_OUT<9:0>> created at line 3216.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_6_OUT<9:0>> created at line 3216.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_9_OUT<9:0>> created at line 3219.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_10_OUT<9:0>> created at line 3219.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_13_OUT<9:0>> created at line 3222.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_14_OUT<9:0>> created at line 3222.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_23_OUT<9:0>> created at line 3256.
-    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_85_OUT<9:0>> created at line 3354.
-    Found 4096x8-bit Read Only RAM for signal <AddressObj[11]_GND_8_o_wide_mux_59_OUT>
-    Found 4096x8-bit Read Only RAM for signal <AddressObj2[11]_GND_8_o_wide_mux_68_OUT>
-    Found 16384x8-bit Read Only RAM for signal <AddressChar[13]_GND_8_o_wide_mux_74_OUT>
-    Found 10-bit comparator greater for signal <GND_8_o_xButton[9]_LessThan_22_o> created at line 3254
-    Found 10-bit comparator greater for signal <xButton[9]_PWR_9_o_LessThan_24_o> created at line 3257
-    Found 10-bit comparator lessequal for signal <n0072> created at line 3314
-    Found 10-bit comparator greater for signal <Xin[9]_GND_8_o_LessThan_47_o> created at line 3314
-    Found 10-bit comparator lessequal for signal <n0076> created at line 3314
-    Found 10-bit comparator greater for signal <Yin[9]_offsetYC[9]_LessThan_50_o> created at line 3314
-    Found 10-bit comparator lessequal for signal <n0084> created at line 3322
-    Found 10-bit comparator greater for signal <Xin[9]_offsetXF[9]_LessThan_54_o> created at line 3322
-    Found 10-bit comparator lessequal for signal <n0088> created at line 3322
-    Found 10-bit comparator greater for signal <Yin[9]_GND_8_o_LessThan_57_o> created at line 3322
-    Found 10-bit comparator lessequal for signal <n0101> created at line 3331
-    Found 10-bit comparator greater for signal <Xin[9]_offsetXA[9]_LessThan_63_o> created at line 3331
-    Found 10-bit comparator lessequal for signal <n0105> created at line 3331
-    Found 10-bit comparator greater for signal <Yin[9]_GND_8_o_LessThan_66_o> created at line 3331
-    Found 11-bit comparator lessequal for signal <n0119> created at line 3336
-    Found 11-bit comparator greater for signal <GND_8_o_GND_8_o_LessThan_73_o> created at line 3336
-    Found 10-bit comparator greater for signal <GND_8_o_Yin[9]_LessThan_74_o> created at line 3336
-    Found 10-bit comparator greater for signal <offsetYP[9]_offsetYF[9]_LessThan_82_o> created at line 3354
-    Found 10-bit comparator greater for signal <offsetXF[9]_offsetXP[9]_LessThan_84_o> created at line 3354
-    Found 10-bit comparator greater for signal <GND_8_o_offsetXF[9]_LessThan_87_o> created at line 3354
-    Found 10-bit comparator greater for signal <offsetYP[9]_offsetYF[9]_LessThan_89_o> created at line 3357
-    Found 10-bit comparator greater for signal <offsetYP[9]_offsetYA[9]_LessThan_91_o> created at line 3371
-    Found 10-bit comparator greater for signal <offsetXA[9]_offsetXP[9]_LessThan_93_o> created at line 3371
-    Found 10-bit comparator greater for signal <GND_8_o_offsetXA[9]_LessThan_96_o> created at line 3371
-    Found 10-bit comparator greater for signal <offsetYP[9]_offsetYA[9]_LessThan_98_o> created at line 3374
+    Found 10-bit register for signal <xButton>.
+    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_17_OUT> created at line 2167.
+    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_19_OUT> created at line 2167.
+    Found 17-bit adder for signal <SuperAddressP> created at line 2132.
+    Found 10-bit adder for signal <xButton[9]_GND_8_o_add_8_OUT> created at line 2153.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_1_OUT<9:0>> created at line 2132.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_2_OUT<9:0>> created at line 2132.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_7_OUT<9:0>> created at line 2150.
+    Found 16384x8-bit Read Only RAM for signal <AddressChar[13]_GND_8_o_wide_mux_21_OUT>
+    Found 10-bit comparator greater for signal <GND_8_o_xButton[9]_LessThan_6_o> created at line 2148
+    Found 10-bit comparator greater for signal <xButton[9]_PWR_9_o_LessThan_8_o> created at line 2151
+    Found 11-bit comparator lessequal for signal <n0026> created at line 2167
+    Found 11-bit comparator greater for signal <GND_8_o_GND_8_o_LessThan_20_o> created at line 2167
+    Found 10-bit comparator greater for signal <GND_8_o_Yin[9]_LessThan_21_o> created at line 2167
     Summary:
-	inferred   3 RAM(s).
-	inferred  24 Adder/Subtractor(s).
-	inferred  76 D-type flip-flop(s).
-	inferred  25 Comparator(s).
-	inferred   8 Multiplexer(s).
+	inferred   1 RAM(s).
+	inferred   6 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   5 Comparator(s).
+	inferred   2 Multiplexer(s).
 Unit <VGA_DISPLAY> synthesized.
 
 Synthesizing Unit <freqDivider60>.
-    Related source file is "D:\ProyectosSisDigAv\Final_Project_Videogame\freqDivider60.vhd".
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\freqDivider60.vhd".
     Found 20-bit register for signal <Count100M>.
     Found 1-bit register for signal <enable60>.
-    Found 20-bit adder for signal <Count100M[19]_GND_40_o_add_1_OUT> created at line 57.
+    Found 20-bit adder for signal <Count100M[19]_GND_20_o_add_1_OUT> created at line 57.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  21 D-type flip-flop(s).
 	inferred   1 Multiplexer(s).
 Unit <freqDivider60> synthesized.
 
-Synthesizing Unit <freqDividerF>.
-    Related source file is "D:\ProyectosSisDigAv\Final_Project_Videogame\freqDividerF.vhd".
-    Found 20-bit register for signal <Count100M>.
-    Found 1-bit register for signal <enable2>.
-    Found 20-bit adder for signal <Count100M[19]_GND_41_o_add_1_OUT> created at line 57.
-    Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred  21 D-type flip-flop(s).
-	inferred   1 Multiplexer(s).
-Unit <freqDividerF> synthesized.
-
-Synthesizing Unit <freqDividerY>.
-    Related source file is "D:\ProyectosSisDigAv\Final_Project_Videogame\freqDividerY.vhd".
-    Found 19-bit register for signal <Count100M>.
-    Found 1-bit register for signal <enable3>.
-    Found 19-bit adder for signal <Count100M[18]_GND_42_o_add_1_OUT> created at line 57.
-    Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred  20 D-type flip-flop(s).
-	inferred   1 Multiplexer(s).
-Unit <freqDividerY> synthesized.
-
-Synthesizing Unit <score>.
-    Related source file is "D:\ProyectosSisDigAv\Final_Project_Videogame\score.vhd".
-    Found 4-bit register for signal <UniCount>.
-    Found 4-bit register for signal <DecCount>.
-    Found 19-bit register for signal <Count100M>.
-    Found 19-bit adder for signal <Count100M[18]_GND_43_o_add_1_OUT> created at line 61.
-    Found 4-bit adder for signal <UniCount[3]_GND_43_o_add_6_OUT> created at line 79.
-    Found 4-bit adder for signal <DecCount[3]_GND_43_o_add_12_OUT> created at line 102.
-    Found 16x8-bit Read Only RAM for signal <Seg_out>
-    Found 19-bit comparator greater for signal <GND_43_o_ClkOut_equal_18_o> created at line 66
-    Summary:
-	inferred   1 RAM(s).
-	inferred   3 Adder/Subtractor(s).
-	inferred  27 D-type flip-flop(s).
-	inferred   1 Comparator(s).
-	inferred   7 Multiplexer(s).
-Unit <score> synthesized.
-
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 4
+# RAMs                                                 : 1
  16384x8-bit single-port Read Only RAM                 : 1
- 16x8-bit single-port Read Only RAM                    : 1
- 4096x8-bit single-port Read Only RAM                  : 2
-# Adders/Subtractors                                   : 35
- 10-bit adder                                          : 7
+# Adders/Subtractors                                   : 12
+ 10-bit adder                                          : 2
  10-bit addsub                                         : 1
- 10-bit subtractor                                     : 11
+ 10-bit subtractor                                     : 4
  11-bit subtractor                                     : 2
- 14-bit adder                                          : 1
- 16-bit adder                                          : 2
  17-bit adder                                          : 1
- 19-bit adder                                          : 2
  2-bit adder                                           : 1
- 20-bit adder                                          : 2
- 4-bit adder                                           : 2
- 7-bit adder                                           : 1
- 9-bit adder                                           : 2
-# Registers                                            : 23
- 1-bit register                                        : 6
- 10-bit register                                       : 7
- 19-bit register                                       : 2
+ 20-bit adder                                          : 1
+# Registers                                            : 8
+ 1-bit register                                        : 2
+ 10-bit register                                       : 4
  2-bit register                                        : 1
- 20-bit register                                       : 2
- 4-bit register                                        : 2
- 6-bit register                                        : 1
- 9-bit register                                        : 2
-# Comparators                                          : 30
+ 20-bit register                                       : 1
+# Comparators                                          : 9
  10-bit comparator equal                               : 1
- 10-bit comparator greater                             : 17
- 10-bit comparator lessequal                           : 9
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 3
  11-bit comparator greater                             : 1
  11-bit comparator lessequal                           : 1
- 19-bit comparator greater                             : 1
-# Multiplexers                                         : 18
- 1-bit 2-to-1 multiplexer                              : 7
- 19-bit 2-to-1 multiplexer                             : 2
- 20-bit 2-to-1 multiplexer                             : 2
- 4-bit 2-to-1 multiplexer                              : 2
- 8-bit 2-to-1 multiplexer                              : 5
+# Multiplexers                                         : 3
+ 20-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 2
 # FSMs                                                 : 1
 
 =========================================================================
@@ -380,41 +255,9 @@ INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmet
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-INFO:Xst:2261 - The FF/Latch <offsetXC_4> in Unit <C02> is equivalent to the following FF/Latch, which will be removed : <offsetXC_5> 
-INFO:Xst:2261 - The FF/Latch <offsetXC_1> in Unit <C02> is equivalent to the following 6 FFs/Latches, which will be removed : <offsetYC_4> <offsetYC_5> <offsetYC_6> <offsetYC_7> <offsetYC_8> <offsetYC_9> 
-INFO:Xst:2261 - The FF/Latch <offsetXC_0> in Unit <C02> is equivalent to the following 4 FFs/Latches, which will be removed : <offsetXC_2> <offsetXC_3> <offsetYC_0> <offsetYC_2> 
-INFO:Xst:2261 - The FF/Latch <offsetYC_1> in Unit <C02> is equivalent to the following FF/Latch, which will be removed : <offsetYC_3> 
-WARNING:Xst:1293 - FF/Latch <offsetXC_1> has a constant value of 0 in block <C02>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <offsetYC_1> (without init value) has a constant value of 1 in block <C02>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <offsetYF_9> (without init value) has a constant value of 0 in block <C02>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <offsetYA_9> (without init value) has a constant value of 0 in block <C02>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2404 -  FFs/Latches <offsetYF<9:9>> (without init value) have a constant value of 0 in block <VGA_DISPLAY>.
-WARNING:Xst:2404 -  FFs/Latches <offsetYA<9:9>> (without init value) have a constant value of 0 in block <VGA_DISPLAY>.
 
 Synthesizing (advanced) Unit <Top>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <C02/Mram_AddressObj2[11]_GND_8_o_wide_mux_68_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
-    -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
-    -----------------------------------------------------------------------
-    | Port A                                                              |
-    |     aspect ratio   | 4096-word x 8-bit                   |          |
-    |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <C02/SuperAddressA> |          |
-    |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to internal node          |          |
-    -----------------------------------------------------------------------
-INFO:Xst:3218 - HDL ADVISOR - The RAM <C02/Mram_AddressObj[11]_GND_8_o_wide_mux_59_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
-    -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
-    -----------------------------------------------------------------------
-    | Port A                                                              |
-    |     aspect ratio   | 4096-word x 8-bit                   |          |
-    |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <C02/SuperAddressF> |          |
-    |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to internal node          |          |
-    -----------------------------------------------------------------------
-INFO:Xst:3218 - HDL ADVISOR - The RAM <C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -435,80 +278,39 @@ Unit <VGA> synthesized (advanced).
 
 Synthesizing (advanced) Unit <VGA_DISPLAY>.
 The following registers are absorbed into counter <xButton>: 1 register on signal <xButton>.
-The following registers are absorbed into counter <yButton>: 1 register on signal <yButton>.
-The following registers are absorbed into counter <yButton2>: 1 register on signal <yButton2>.
 Unit <VGA_DISPLAY> synthesized (advanced).
 
 Synthesizing (advanced) Unit <freqDivider60>.
 The following registers are absorbed into counter <Count100M>: 1 register on signal <Count100M>.
 Unit <freqDivider60> synthesized (advanced).
 
-Synthesizing (advanced) Unit <freqDividerF>.
-The following registers are absorbed into counter <Count100M>: 1 register on signal <Count100M>.
-Unit <freqDividerF> synthesized (advanced).
-
-Synthesizing (advanced) Unit <freqDividerY>.
-The following registers are absorbed into counter <Count100M>: 1 register on signal <Count100M>.
-Unit <freqDividerY> synthesized (advanced).
-
-Synthesizing (advanced) Unit <score>.
-The following registers are absorbed into counter <UniCount>: 1 register on signal <UniCount>.
-The following registers are absorbed into counter <DecCount>: 1 register on signal <DecCount>.
-The following registers are absorbed into counter <Count100M>: 1 register on signal <Count100M>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_Seg_out> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
-    -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
-    -----------------------------------------------------------------------
-    | Port A                                                              |
-    |     aspect ratio   | 16-word x 8-bit                     |          |
-    |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <Valor>         |          |
-    |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to signal <Seg_out>       |          |
-    -----------------------------------------------------------------------
-Unit <score> synthesized (advanced).
-
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 4
+# RAMs                                                 : 1
  16384x8-bit single-port distributed Read Only RAM     : 1
- 16x8-bit single-port distributed Read Only RAM        : 1
- 4096x8-bit single-port distributed Read Only RAM      : 2
-# Adders/Subtractors                                   : 24
- 10-bit adder                                          : 5
- 10-bit subtractor                                     : 6
+# Adders/Subtractors                                   : 8
+ 10-bit subtractor                                     : 3
  11-bit subtractor                                     : 2
- 12-bit adder                                          : 2
  14-bit adder                                          : 1
  2-bit adder                                           : 1
- 4-bit subtractor                                      : 1
- 6-bit subtractor                                      : 2
- 7-bit adder                                           : 1
  7-bit subtractor                                      : 1
- 8-bit adder                                           : 1
- 8-bit subtractor                                      : 1
-# Counters                                             : 12
+# Counters                                             : 5
  10-bit up counter                                     : 2
  10-bit updown counter                                 : 1
- 19-bit up counter                                     : 2
  2-bit up counter                                      : 1
- 20-bit up counter                                     : 2
- 4-bit up counter                                      : 2
- 9-bit up counter                                      : 2
-# Registers                                            : 50
- Flip-Flops                                            : 50
-# Comparators                                          : 30
+ 20-bit up counter                                     : 1
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+# Comparators                                          : 9
  10-bit comparator equal                               : 1
- 10-bit comparator greater                             : 17
- 10-bit comparator lessequal                           : 9
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 3
  11-bit comparator greater                             : 1
  11-bit comparator lessequal                           : 1
- 19-bit comparator greater                             : 1
-# Multiplexers                                         : 12
- 1-bit 2-to-1 multiplexer                              : 7
- 8-bit 2-to-1 multiplexer                              : 5
+# Multiplexers                                         : 2
+ 8-bit 2-to-1 multiplexer                              : 2
 # FSMs                                                 : 1
 
 =========================================================================
@@ -516,17 +318,6 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1293 - FF/Latch <C02/offsetXC_1> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C02/offsetYC_1> (without init value) has a constant value of 1 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C02/offsetYC_3> (without init value) has a constant value of 1 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C02/offsetYC_4> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C02/offsetYC_5> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C02/offsetYC_6> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C02/offsetYC_7> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C02/offsetYC_8> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <C02/offsetYC_9> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <C02/offsetXC_4> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C02/offsetXC_5> 
-INFO:Xst:2261 - The FF/Latch <C02/offsetXC_0> in Unit <Top> is equivalent to the following 4 FFs/Latches, which will be removed : <C02/offsetXC_2> <C02/offsetXC_3> <C02/offsetYC_0> <C02/offsetYC_2> 
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <FSM_0> on signal <pr_state[1:2]> with user encoding.
 -------------------
@@ -537,8 +328,6 @@ Optimizing FSM <FSM_0> on signal <pr_state[1:2]> with user encoding.
  pu_hs | 10
  bp_hs | 11
 -------------------
-WARNING:Xst:2170 - Unit Top : the following signal(s) form a combinatorial loop: C02/flag_offsetYP[9]_AND_29_o, C02/flag, Red<2>, C02/offsetXF[9]_flag_AND_19_o, C02/Mmux_Color7.
-WARNING:Xst:2170 - Unit Top : the following signal(s) form a combinatorial loop: C02/Mmux_Color6, C02/flagA_offsetYP[9]_AND_32_o, C02/offsetXA[9]_flagA_AND_24_o, Red<1>, C02/flagA.
 WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
    incompatible with the Spartan6 architecture. The two primary causes of this is
    either a register or latch described with both an asynchronous set and
@@ -563,44 +352,18 @@ WARNING:Xst:3002 - This design contains one or more registers/latches that are d
 
   List of register instances with asynchronous set or reset and opposite initialization value:
     C02/xButton_8 in unit <Top>
-    C02/offsetXC_4 in unit <Top>
 
 
 Optimizing unit <Top> ...
-
-Optimizing unit <score> ...
-WARNING:Xst:1710 - FF/Latch <C06/DecCount_3> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_4> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_4> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_5> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_5> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_6> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_6> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_7> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_7> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_8> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_8> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_9> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_9> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_10> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_10> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_11> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_11> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_12> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_12> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_13> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_13> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_14> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_14> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_15> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_15> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_16> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_16> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_17> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_17> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_18> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_18> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_19> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_19> 
-INFO:Xst:2261 - The FF/Latch <C03/enable60> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/enable2> 
-INFO:Xst:2261 - The FF/Latch <C01/FreqDiv.Count_0> in Unit <Top> is equivalent to the following 2 FFs/Latches, which will be removed : <C03/Count100M_0> <C04/Count100M_0> 
-INFO:Xst:2261 - The FF/Latch <C01/FreqDiv.Count_1> in Unit <Top> is equivalent to the following 2 FFs/Latches, which will be removed : <C03/Count100M_1> <C04/Count100M_1> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_2> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_2> 
-INFO:Xst:2261 - The FF/Latch <C03/Count100M_3> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C04/Count100M_3> 
+INFO:Xst:2261 - The FF/Latch <C01/FreqDiv.Count_0> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C03/Count100M_0> 
+INFO:Xst:2261 - The FF/Latch <C01/FreqDiv.Count_1> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <C03/Count100M_1> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 24.
-WARNING:Xst:1426 - The value init of the FF/Latch C02/offsetXC_4_LD hinder the constant cleaning in the block Top.
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 16.
+WARNING:Xst:1426 - The value init of the FF/Latch C02/xButton_8_LD hinder the constant cleaning in the block Top.
    You should achieve better results by setting this init to 1.
-FlipFlop C01/CuentaH_0 has been replicated 1 time(s)
-FlipFlop C01/CuentaH_1 has been replicated 1 time(s)
-FlipFlop C01/CuentaH_2 has been replicated 1 time(s)
-FlipFlop C01/CuentaH_3 has been replicated 1 time(s)
+FlipFlop C02/xButton_0 has been replicated 2 time(s)
 
 Final Macro Processing ...
 
@@ -608,8 +371,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 155
- Flip-Flops                                            : 155
+# Registers                                            : 67
+ Flip-Flops                                            : 67
 
 =========================================================================
 
@@ -632,33 +395,32 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2177
+# BELS                             : 1368
 #      GND                         : 1
-#      INV                         : 14
-#      LUT1                        : 90
-#      LUT2                        : 116
-#      LUT3                        : 122
-#      LUT4                        : 208
-#      LUT5                        : 363
-#      LUT6                        : 935
-#      MUXCY                       : 141
-#      MUXF7                       : 60
+#      INV                         : 5
+#      LUT1                        : 38
+#      LUT2                        : 82
+#      LUT3                        : 62
+#      LUT4                        : 133
+#      LUT5                        : 266
+#      LUT6                        : 611
+#      MUXCY                       : 63
+#      MUXF7                       : 48
 #      VCC                         : 1
-#      XORCY                       : 126
-# FlipFlops/Latches                : 156
-#      FD                          : 3
-#      FDC                         : 63
-#      FDCE                        : 62
-#      FDE                         : 3
-#      FDPE                        : 3
-#      FDRE                        : 21
+#      XORCY                       : 58
+# FlipFlops/Latches                : 68
+#      FD                          : 20
+#      FDC                         : 23
+#      FDCE                        : 20
+#      FDE                         : 2
+#      FDPE                        : 2
 #      LD                          : 1
 # Clock Buffers                    : 2
 #      BUFG                        : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 25
+# IO Buffers                       : 13
 #      IBUF                        : 3
-#      OBUF                        : 22
+#      OBUF                        : 10
 
 Device utilization summary:
 ---------------------------
@@ -667,20 +429,20 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             156  out of  18224     0%  
- Number of Slice LUTs:                 1848  out of   9112    20%  
-    Number used as Logic:              1848  out of   9112    20%  
+ Number of Slice Registers:              68  out of  18224     0%  
+ Number of Slice LUTs:                 1197  out of   9112    13%  
+    Number used as Logic:              1197  out of   9112    13%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1866
-   Number with an unused Flip Flop:    1710  out of   1866    91%  
-   Number with an unused LUT:            18  out of   1866     0%  
-   Number of fully used LUT-FF pairs:   138  out of   1866     7%  
-   Number of unique control sets:        11
+ Number of LUT Flip Flop pairs used:   1203
+   Number with an unused Flip Flop:    1135  out of   1203    94%  
+   Number with an unused LUT:             6  out of   1203     0%  
+   Number of fully used LUT-FF pairs:    62  out of   1203     5%  
+   Number of unique control sets:         7
 
 IO Utilization: 
  Number of IOs:                          26
- Number of bonded IOBs:                  26  out of    232    11%  
+ Number of bonded IOBs:                  14  out of    232     6%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
@@ -706,7 +468,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-Clk                                | BUFGP                  | 155   |
+Clk                                | BUFGP                  | 67    |
 Rst                                | IBUF+BUFG              | 1     |
 -----------------------------------+------------------------+-------+
 
@@ -718,9 +480,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 5.879ns (Maximum Frequency: 170.106MHz)
-   Minimum input arrival time before clock: 5.695ns
-   Maximum output required time after clock: 27.910ns
+   Minimum period: 4.033ns (Maximum Frequency: 247.936MHz)
+   Minimum input arrival time before clock: 5.316ns
+   Maximum output required time after clock: 26.343ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -729,59 +491,55 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clk'
-  Clock period: 5.879ns (frequency: 170.106MHz)
-  Total number of paths / destination ports: 4099 / 261
+  Clock period: 4.033ns (frequency: 247.936MHz)
+  Total number of paths / destination ports: 2489 / 90
 -------------------------------------------------------------------------
-Delay:               5.879ns (Levels of Logic = 8)
-  Source:            C02/xButton_8_C_8 (FF)
-  Destination:       C02/xButton_8_C_8 (FF)
+Delay:               4.033ns (Levels of Logic = 3)
+  Source:            C01/CuentaH_5 (FF)
+  Destination:       C01/CuentaV_0 (FF)
   Source Clock:      Clk rising
   Destination Clock: Clk rising
 
-  Data Path: C02/xButton_8_C_8 to C02/xButton_8_C_8
+  Data Path: C01/CuentaH_5 to C01/CuentaV_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              5   0.447   0.819  C02/xButton_8_C_8 (C02/xButton_8_C_8)
-     LUT3:I1->O            5   0.203   0.715  C02/xButton_81 (C02/xButton_8)
-     LUT6:I5->O            8   0.205   0.803  C02/_n0354_SW0 (N33)
-     LUT6:I5->O           15   0.205   0.982  C02/_n0354 (C02/_n0354)
-     LUT2:I1->O            1   0.205   0.000  C02/Mcount_xButton_lut<6> (C02/Mcount_xButton_lut<6>)
-     MUXCY:S->O            1   0.172   0.000  C02/Mcount_xButton_cy<6> (C02/Mcount_xButton_cy<6>)
-     MUXCY:CI->O           1   0.019   0.000  C02/Mcount_xButton_cy<7> (C02/Mcount_xButton_cy<7>)
-     XORCY:CI->O           2   0.180   0.617  C02/Mcount_xButton_xor<8> (Result<8>4)
-     LUT5:I4->O            1   0.205   0.000  C02/xButton_8_C_8_dpot (C02/xButton_8_C_8_dpot)
-     FDE:D                     0.102          C02/xButton_8_C_8
+     FD:C->Q               6   0.447   1.109  C01/CuentaH_5 (C01/CuentaH_5)
+     LUT6:I0->O            3   0.203   0.879  C01/Tiempo[9]_CuentaH[9]_equal_8_o102 (C01/Tiempo[9]_CuentaH[9]_equal_8_o101)
+     LUT5:I2->O           11   0.205   0.883  C01/Tiempo[9]_CuentaH[9]_equal_8_o104 (C01/Tiempo[9]_CuentaH[9]_equal_8_o)
+     LUT6:I5->O            1   0.205   0.000  C01/CuentaV_0_glue_set (C01/CuentaV_0_glue_set)
+     FD:D                      0.102          C01/CuentaV_0
     ----------------------------------------
-    Total                      5.879ns (1.943ns logic, 3.936ns route)
-                                       (33.1% logic, 66.9% route)
+    Total                      4.033ns (1.162ns logic, 2.871ns route)
+                                       (28.8% logic, 71.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
-  Total number of paths / destination ports: 273 / 186
+  Total number of paths / destination ports: 211 / 89
 -------------------------------------------------------------------------
-Offset:              5.695ns (Levels of Logic = 3)
+Offset:              5.316ns (Levels of Logic = 4)
   Source:            Rst (PAD)
-  Destination:       C01/CuentaV_2 (FF)
+  Destination:       C01/CuentaH_1 (FF)
   Destination Clock: Clk rising
 
-  Data Path: Rst to C01/CuentaV_2
+  Data Path: Rst to C01/CuentaH_1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           135   1.222   1.969  Rst_IBUF (Rst_IBUF)
-     LUT3:I2->O            1   0.205   0.808  C01/_n007811_SW0 (N61)
-     LUT6:I3->O           10   0.205   0.856  C01/_n0078 (C01/_n0078)
-     FDRE:R                    0.430          C01/CuentaV_2
+     IBUF:I->O            61   1.222   1.725  Rst_IBUF (Rst_IBUF)
+     LUT2:I0->O            1   0.203   0.827  C01/Tiempo[9]_CuentaH[9]_equal_8_o104_SW0 (N36)
+     LUT6:I2->O            9   0.203   0.830  C01/_n007811 (C01/_n00781)
+     LUT5:I4->O            1   0.205   0.000  C01/CuentaH_1_rstpot (C01/CuentaH_1_rstpot)
+     FD:D                      0.102          C01/CuentaH_1
     ----------------------------------------
-    Total                      5.695ns (2.062ns logic, 3.633ns route)
-                                       (36.2% logic, 63.8% route)
+    Total                      5.316ns (1.935ns logic, 3.381ns route)
+                                       (36.4% logic, 63.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
-  Total number of paths / destination ports: 5929342 / 19
+  Total number of paths / destination ports: 4099802 / 10
 -------------------------------------------------------------------------
-Offset:              27.910ns (Levels of Logic = 22)
+Offset:              26.343ns (Levels of Logic = 24)
   Source:            C01/CuentaH_0 (FF)
   Destination:       Green<2> (PAD)
   Source Clock:      Clk rising
@@ -790,59 +548,57 @@ Offset:              27.910ns (Levels of Logic = 22)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              37   0.447   1.707  C01/CuentaH_0 (C01/CuentaH_0)
-     LUT6:I1->O           21   0.203   1.114  C01/Msub_X_cy<5>11 (C01/Msub_X_cy<5>)
-     LUT2:I1->O            9   0.205   0.829  C01/Msub_X_xor<6>11 (X_emb<6>)
+     FD:C->Q              15   0.447   1.326  C01/CuentaH_0 (C01/CuentaH_0)
+     LUT6:I1->O            8   0.203   0.803  C01/Msub_X_cy<5>11 (C01/Msub_X_cy<5>)
+     LUT2:I1->O            4   0.205   0.683  C01/Msub_X_xor<6>11 (X_emb<6>)
      MUXCY:DI->O           1   0.145   0.000  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<6> (C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<6>)
-     XORCY:CI->O           4   0.180   0.788  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_xor<7> (C02/GND_8_o_GND_8_o_sub_1_OUT<7>)
-     LUT2:I0->O          302   0.203   2.072  C02/Madd_SuperAddressP_Madd_lut<7>1 (C02/Madd_SuperAddressP_Madd_lut<7>)
-     LUT6:I5->O          358   0.205   2.441  C02/Madd_SuperAddressP_Madd_xor<9>11 (C02/SuperAddressP<9>)
-     LUT6:I0->O            1   0.203   0.924  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417112 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417111)
-     LUT6:I1->O            1   0.203   0.580  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417113 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417112)
-     LUT6:I5->O            1   0.205   0.000  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT4171111_G (N953)
-     MUXF7:I1->O          10   0.140   1.085  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT4171111 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT4171)
-     LUT4:I1->O            2   0.205   0.981  SF1322 (SF1322)
-     LUT6:I0->O            1   0.203   0.808  SF145324 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT67812394)
-     LUT6:I3->O            1   0.205   0.808  SF145327 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT67812397)
-     LUT6:I3->O            2   0.205   0.864  SF145340 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT678123110)
-     LUT5:I1->O            6   0.203   0.992  SF145341 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT678123111)
-     LUT5:I1->O            1   0.203   0.944  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417123218_SW1 (N862)
-     LUT6:I0->O            1   0.203   0.944  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417123218 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417123217)
-     LUT6:I0->O            1   0.203   0.808  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417123219 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417123218)
-     LUT6:I3->O            1   0.205   0.808  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417123223 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417123222)
-     LUT6:I3->O            1   0.205   0.684  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_74_OUT417123224 (C02/AddressChar[13]_GND_8_o_wide_mux_74_OUT<4>)
-     LUT6:I4->O            1   0.203   0.579  C02/Mmux_Color10 (Green_2_OBUF)
+     MUXCY:CI->O           1   0.019   0.000  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<7> (C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<7>)
+     MUXCY:CI->O           0   0.019   0.000  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<8> (C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_cy<8>)
+     XORCY:CI->O           2   0.180   0.981  C02/Msub_GND_8_o_GND_8_o_sub_1_OUT<9:0>_xor<9> (C02/GND_8_o_GND_8_o_sub_1_OUT<9>)
+     LUT6:I0->O          350   0.203   2.440  C02/Madd_SuperAddressP_Madd_xor<9>11 (C02/SuperAddressP<9>)
+     LUT6:I0->O            1   0.203   0.924  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417112 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417111)
+     LUT6:I1->O            1   0.203   0.580  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417113 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417112)
+     LUT6:I5->O            1   0.205   0.000  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT4171111_G (N851)
+     MUXF7:I1->O          10   0.140   1.085  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT4171111 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT4171)
+     LUT4:I1->O            1   0.205   0.944  SF11431 (SF1143)
+     LUT6:I0->O            1   0.203   0.924  SF126915 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT67812384)
+     LUT6:I1->O            1   0.203   0.827  SF126917 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT67812386)
+     LUT4:I0->O            1   0.203   0.684  SF126918_SW0 (N632)
+     LUT6:I4->O            2   0.203   0.961  SF126918 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT67812387)
+     LUT5:I0->O            6   0.203   0.992  SF126942 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT678123111)
+     LUT5:I1->O            1   0.203   0.944  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123216_SW1 (N774)
+     LUT6:I0->O            1   0.203   0.944  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123216 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123215)
+     LUT6:I0->O            1   0.203   0.808  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123217 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123216)
+     LUT6:I3->O            1   0.205   0.808  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123221 (C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123220)
+     LUT6:I3->O            1   0.205   0.924  C02/Mram_AddressChar[13]_GND_8_o_wide_mux_21_OUT417123222 (C02/AddressChar[13]_GND_8_o_wide_mux_21_OUT<4>)
+     LUT5:I0->O            1   0.203   0.579  C02/Mmux_Color51 (Green_2_OBUF)
      OBUF:I->O                 2.571          Green_2_OBUF (Green<2>)
     ----------------------------------------
-    Total                     27.910ns (7.153ns logic, 20.757ns route)
-                                       (25.6% logic, 74.4% route)
+    Total                     26.343ns (7.185ns logic, 19.158ns route)
+                                       (27.3% logic, 72.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Rst'
-  Total number of paths / destination ports: 474 / 8
+  Total number of paths / destination ports: 48 / 8
 -------------------------------------------------------------------------
-Offset:              12.557ns (Levels of Logic = 9)
-  Source:            C02/offsetXC_4_LD (LATCH)
-  Destination:       Red<0> (PAD)
+Offset:              8.429ns (Levels of Logic = 5)
+  Source:            C02/xButton_8_LD (LATCH)
+  Destination:       Red<2> (PAD)
   Source Clock:      Rst falling
 
-  Data Path: C02/offsetXC_4_LD to Red<0>
+  Data Path: C02/xButton_8_LD to Red<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q               8   0.498   1.031  C02/offsetXC_4_LD (C02/offsetXC_4_LD)
-     LUT3:I0->O            5   0.205   0.819  C02/offsetXC_41 (C02/offsetXC_4)
-     LUT6:I4->O            3   0.203   1.015  C02/Madd_SuperAddressC_Madd_lut<0>51 (C02/Madd_SuperAddressC_Madd_lut<0>5)
-     LUT6:I0->O            2   0.203   0.845  C02/Madd_SuperAddressC_Madd_cy<0>6 (C02/Madd_SuperAddressC_Madd_cy<0>5)
-     LUT5:I2->O           13   0.205   1.037  C02/Madd_SuperAddressC_Madd_xor<0>71 (C02/SuperAddressC<6>)
-     LUT4:I2->O            1   0.203   0.924  C02/Mmux_Color121111 (C02/Mmux_Color121111)
-     LUT6:I1->O            1   0.203   0.580  C02/Mmux_Color121112 (C02/Mmux_Color121112)
-     LUT6:I5->O            4   0.205   1.028  C02/Mmux_Color121113 (C02/Mmux_Color1211)
-     LUT6:I1->O            1   0.203   0.579  C02/Mmux_Color12 (Red_0_OBUF)
-     OBUF:I->O                 2.571          Red_0_OBUF (Red<0>)
+     LD:G->Q               3   0.498   0.879  C02/xButton_8_LD (C02/xButton_8_LD)
+     LUT3:I0->O           17   0.205   1.132  C02/xButton_81 (C02/xButton_8)
+     LUT5:I3->O            1   0.203   0.924  C02/Msub_GND_8_o_GND_8_o_sub_17_OUT_xor<9>11 (C02/GND_8_o_GND_8_o_sub_17_OUT<9>)
+     LUT6:I1->O            8   0.203   1.031  C02/Mcompar_GND_8_o_GND_8_o_LessThan_18_o_cy<4> (C02/GND_8_o_GND_8_o_LessThan_18_o)
+     LUT5:I2->O            1   0.205   0.579  C02/Mmux_Color81 (Red_2_OBUF)
+     OBUF:I->O                 2.571          Red_2_OBUF (Red<2>)
     ----------------------------------------
-    Total                     12.557ns (4.699ns logic, 7.858ns route)
-                                       (37.4% logic, 62.6% route)
+    Total                      8.429ns (3.885ns logic, 4.544ns route)
+                                       (46.1% logic, 53.9% route)
 
 =========================================================================
 
@@ -854,21 +610,21 @@ Clock to Setup on destination clock Clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk            |    5.879|         |         |         |
-Rst            |         |    6.143|         |         |
+Clk            |    4.033|         |         |         |
+Rst            |         |    4.095|         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 22.00 secs
-Total CPU time to Xst completion: 21.55 secs
+Total REAL time to Xst completion: 19.00 secs
+Total CPU time to Xst completion: 18.83 secs
  
 --> 
 
-Total memory usage is 4664672 kilobytes
+Total memory usage is 4583552 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   25 (   0 filtered)
-Number of infos    :   32 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
 

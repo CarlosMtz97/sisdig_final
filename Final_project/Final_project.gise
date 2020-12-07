@@ -108,17 +108,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1607360100" xil_pn:in_ck="-8741765880265343867" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-1484822076542432612" xil_pn:start_ts="1607360089">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
+    <transform xil_pn:end_ts="1607361058" xil_pn:in_ck="-8741765880265343867" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-1484822076542432612" xil_pn:start_ts="1607361051">
+      <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Top.lso"/>
       <outfile xil_pn:name="Top.ngc"/>
       <outfile xil_pn:name="Top.ngr"/>
       <outfile xil_pn:name="Top.prj"/>
-      <outfile xil_pn:name="Top.stx"/>
       <outfile xil_pn:name="Top.syr"/>
       <outfile xil_pn:name="Top.xst"/>
       <outfile xil_pn:name="Top_xst.xrpt"/>
@@ -133,6 +129,7 @@
     <transform xil_pn:end_ts="1607360354" xil_pn:in_ck="3757661489789935179" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7975460800969880370" xil_pn:start_ts="1607360348">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Top.bld"/>
       <outfile xil_pn:name="Top.ngd"/>
       <outfile xil_pn:name="Top_ngdbuild.xrpt"/>
@@ -142,6 +139,7 @@
     <transform xil_pn:end_ts="1607360362" xil_pn:in_ck="-338308567699624647" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1607360354">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Top.pcf"/>
@@ -158,6 +156,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Top.ncd"/>
       <outfile xil_pn:name="Top.pad"/>
       <outfile xil_pn:name="Top.par"/>
@@ -170,9 +169,12 @@
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
     <transform xil_pn:end_ts="1607360385" xil_pn:in_ck="112961937430" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1607360375">
-      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Top.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="top.bgn"/>
@@ -185,6 +187,7 @@
     <transform xil_pn:end_ts="1607360375" xil_pn:in_ck="-338314193334097611" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1607360370">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Top.twr"/>
       <outfile xil_pn:name="Top.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

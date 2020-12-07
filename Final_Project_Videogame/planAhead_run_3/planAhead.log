@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 07 11:40:57 2020
+# Process ID: 26500
+# Log file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_3/planAhead.log
+# Journal file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1559 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/pa.fromNetlist.tcl
+# create_project -name Final_Project_Videogame -dir "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_4" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 459.355 ; gain = 57.824
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame} }
+# set_property target_constrs_file "Top.ucf" [current_fileset -constrset]
+Adding file 'D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf' to fileset 'constrs_1'
+# add_files [list {Top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+WARNING: [Common 17-175] Failed to make directory to contain cached edif files [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_4/Final_Project_Videogame.data/cache]
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Top.ngc ...
+WARNING:NetListWriters:298 - No output is written to Top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   C02/AddressChar[13]_GND_8_o_wide_mux_21_OUT[7 : 0] on block Top is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file Top.edif ...
+ngc2edif: Total memory usage is 4315668 kilobytes
+
+Parsing EDIF File [./.Xil/PlanAhead-26500-DESKTOP-P1P85NC/ngc2edif/Top.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-26500-DESKTOP-P1P85NC/ngc2edif/Top.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'Top' is not ideal for floorplanning, since the cellview 'Top' defined in file 'Top.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'anode[3]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:24]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'anode[2]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:25]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'anode[1]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:26]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'anode[0]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:27]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'segment[0]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:28]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'segment[1]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:29]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'segment[2]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:30]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'segment[3]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:31]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'segment[4]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:32]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'segment[5]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:33]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'segment[6]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:34]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'segment[7]' [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf:35]
+Finished Parsing UCF File [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: a1e57c41
+link_design: Time (s): elapsed = 00:00:27 . Memory (MB): peak = 584.512 ; gain = 123.004
+design_1
+set_property is_loc_fixed false [get_ports [list  Hsync]]
+save_constraints
+set_property is_loc_fixed true [get_ports [list  Hsync]]
+set_property is_loc_fixed false [get_ports [list  Hsync]]
+set_property is_loc_fixed true [get_ports [list  Hsync]]
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame\planAhead_pid26500.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Dec 07 11:43:44 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -5,13 +5,25 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\ipcore_dir\ROM_1.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">ROM_1</arg>&gt; remains a black box.
+<msg type="error" file="HDLCompiler" num="56" delta="old" >"D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\VGA_DISPLAY.vhd" Line 151: &lt;<arg fmt="%s" index="1">poscol</arg>&gt; is not a signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\VGA_DISPLAY.vhd" Line 112: Assignment to <arg fmt="%s" index="1">rgb_now</arg> ignored, since the identifier is never used
+<msg type="error" file="HDLCompiler" num="294" delta="old" >"D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\VGA_DISPLAY.vhd" Line 151: Cannot update &apos;in&apos; object <arg fmt="%s" index="1">poscol</arg>
 </msg>
 
-<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+<msg type="error" file="HDLCompiler" num="841" delta="new" >"D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\VGA_DISPLAY.vhd" Line 151: Expecting type <arg fmt="%s" index="2">natural</arg> for &lt;<arg fmt="%s" index="1">conv_std_logic_vector</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="56" delta="old" >"D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\VGA_DISPLAY.vhd" Line 152: &lt;<arg fmt="%s" index="1">posrow</arg>&gt; is not a signal.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="294" delta="old" >"D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\VGA_DISPLAY.vhd" Line 152: Cannot update &apos;in&apos; object <arg fmt="%s" index="1">posrow</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="841" delta="new" >"D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\VGA_DISPLAY.vhd" Line 152: Expecting type <arg fmt="%s" index="2">natural</arg> for &lt;<arg fmt="%s" index="1">conv_std_logic_vector</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="old" >"D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\VGA_DISPLAY.vhd" Line 48: Unit &lt;<arg fmt="%s" index="1">behavioral</arg>&gt; ignored due to previous errors.
 </msg>
 
 </messages>

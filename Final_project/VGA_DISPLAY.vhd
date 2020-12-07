@@ -148,7 +148,9 @@ begin
 		rgb_now <= COLOR_NULL;
 		
 	end if;		
-     
+  PosCol <= CONV_STD_LOGIC_VECTOR(cookie_x,10);
+  PosRow <= CONV_STD_LOGIC_VECTOR(cookie_y,10);
+  
   end process;
   
   -- Send individual color to their channel

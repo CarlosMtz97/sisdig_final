@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 07 11:49:58 2020
+# Process ID: 22572
+# Log file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_5/planAhead.log
+# Journal file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1559 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/pa.fromNetlist.tcl
+# create_project -name Final_Project_Videogame -dir "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_5" -part xc6slx16csg324-3
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'current_run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame\planAhead_pid22572.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Dec 07 11:50:16 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead
