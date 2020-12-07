@@ -135,6 +135,7 @@ Going to verilog side to elaborate module ROM_1
 Elaborating module <ROM_1>.
 WARNING:HDLCompiler:1499 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\ipcore_dir\ROM_1.v" Line 39: Empty module <ROM_1> remains a black box.
 Back to vhdl to continue elaboration
+WARNING:HDLCompiler:1127 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\VGA_DISPLAY.vhd" Line 112: Assignment to rgb_now ignored, since the identifier is never used
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -191,14 +192,10 @@ Synthesizing Unit <VGA_DISPLAY>.
         ImageRows = 50
         PosCol = 100
         PosRow = 100
-WARNING:Xst:647 - Input <rightB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <leftB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <upB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <downB> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 8-bit register for signal <Color>.
-    Found 12-bit adder for signal <Address> created at line 73.
-    Found 10-bit comparator greater for signal <Xin[9]_GND_8_o_LessThan_2_o> created at line 80
-    Found 10-bit comparator greater for signal <Yin[9]_GND_8_o_LessThan_3_o> created at line 80
+    Found 12-bit adder for signal <Address> created at line 94.
+    Found 10-bit comparator greater for signal <Xin[9]_GND_8_o_LessThan_4_o> created at line 101
+    Found 10-bit comparator greater for signal <Yin[9]_GND_8_o_LessThan_5_o> created at line 101
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred   8 D-type flip-flop(s).
@@ -497,14 +494,14 @@ Clk            |    4.902|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.25 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.19 secs
  
 --> 
 
-Total memory usage is 4511104 kilobytes
+Total memory usage is 4511488 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    5 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 

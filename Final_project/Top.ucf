@@ -14,3 +14,9 @@ NET "Blue<1>"       LOC = "T7";  #Blue  MSB
 NET "Blue<0>"       LOC = "R7";  #Blue  LSB
 NET "Hsync"         LOC = "N6";
 NET "Vsync"         LOC = "P7";
+
+// buttons
+NET "upButton"      LOC = "A8";
+NET "rightButton"   LOC = "D9";
+NET "leftButton"    LOC = "C4";
+NET "downButton"    LOC = "C9";

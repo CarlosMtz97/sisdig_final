@@ -10,7 +10,7 @@ Target Device  : xc6slx16
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Mon Dec 07 10:28:56 2020
+Mapped Date    : Mon Dec 07 10:59:15 2020
 
 Design Summary
 --------------
@@ -52,8 +52,8 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        12 out of     232    5%
-    Number of LOCed IOBs:                       12 out of      12  100%
+  Number of bonded IOBs:                        16 out of     232    6%
+    Number of LOCed IOBs:                       16 out of      16  100%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      32    0%
@@ -80,9 +80,9 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                3.41
+Average Fanout of Non-Clock Nets:                3.29
 
-Peak Memory Usage:  4497 MB
+Peak Memory Usage:  4496 MB
 Total REAL time to MAP completion:  5 secs 
 Total CPU time to MAP completion:   5 secs 
 
@@ -114,12 +114,12 @@ WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
 
 Section 3 - Informational
 -------------------------
-INFO:LIT:243 - Logical network rightButton has no load.
+INFO:LIT:243 - Logical network rightButton_IBUF has no load.
 INFO:LIT:395 - The above info message is repeated 3 more times for the following
    (max. 5 shown):
-   leftButton,
-   upButton,
-   downButton
+   leftButton_IBUF,
+   upButton_IBUF,
+   downButton_IBUF
    To see the details of these info messages, please use the -detail switch.
 INFO:MapLib:562 - No environment variables are currently set.
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
@@ -182,6 +182,10 @@ Section 6 - IOB Properties
 | Red<2>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | Rst                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | Vsync                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| downButton                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| leftButton                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rightButton                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| upButton                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs
