@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\Top.ncd
-OUTFILE=D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project\Top.bit
-FAMILY=Spartan6
-PART=xc6slx16-3csg324
-WORKINGDIR=D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_project
-LICENSE=WebPack
-USER_INFO=176089449_1777494614_0_810

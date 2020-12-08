@@ -1,0 +1,270 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.91 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.91 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA_DISPLAY.vhd" into library work
+Parsing entity <VGA_DISPLAY>.
+Parsing architecture <Behavioral> of entity <vga_display>.
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA.vhd" into library work
+Parsing entity <VGA>.
+Parsing architecture <Behavioral> of entity <vga>.
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\freqDivider60.vhd" into library work
+Parsing entity <freqDivider60>.
+Parsing architecture <Behavioral> of entity <freqdivider60>.
+Parsing VHDL file "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\Top.vhd" into library work
+Parsing entity <Top>.
+Parsing architecture <Behavioral> of entity <top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Top> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <VGA> (architecture <Behavioral>) with generics from library <work>.
+INFO:HDLCompiler:679 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA.vhd" Line 164. Case statement is complete. others clause is never selected
+
+Elaborating entity <VGA_DISPLAY> (architecture <Behavioral>) with generics from library <work>.
+INFO:HDLCompiler:679 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA_DISPLAY.vhd" Line 3200. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA_DISPLAY.vhd" Line 3218: addresscookier should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA_DISPLAY.vhd" Line 3219: addresscookiel should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA_DISPLAY.vhd" Line 3223. Case statement is complete. others clause is never selected
+
+Elaborating entity <freqDivider60> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Top>.
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\Top.vhd".
+    Summary:
+	no macro.
+Unit <Top> synthesized.
+
+Synthesizing Unit <VGA>.
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA.vhd".
+        MX_HS = 800
+        MX_VS = 521
+    Found 1-bit register for signal <En_25>.
+    Found 2-bit register for signal <pr_state>.
+    Found 2-bit register for signal <FreqDiv.Count>.
+    Found 10-bit register for signal <CuentaH>.
+    Found 10-bit register for signal <CuentaV>.
+    Found finite state machine <FSM_0> for signal <pr_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 8                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Reset              | Rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | al_hs                                          |
+    | Power Up State     | al_hs                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 2-bit adder for signal <FreqDiv.Count[1]_GND_7_o_add_4_OUT> created at line 92.
+    Found 10-bit adder for signal <CuentaH[9]_GND_7_o_add_8_OUT> created at line 113.
+    Found 10-bit adder for signal <CuentaV[9]_GND_7_o_add_14_OUT> created at line 125.
+    Found 10-bit subtractor for signal <X> created at line 35.
+    Found 10-bit subtractor for signal <Y> created at line 36.
+    Found 10-bit comparator lessequal for signal <n0003> created at line 79
+    Found 10-bit comparator equal for signal <Tiempo[9]_CuentaH[9]_equal_8_o> created at line 109
+    Found 10-bit comparator lessequal for signal <n0030> created at line 169
+    Found 10-bit comparator lessequal for signal <n0032> created at line 169
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred  23 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred   1 Finite State Machine(s).
+Unit <VGA> synthesized.
+
+Synthesizing Unit <VGA_DISPLAY>.
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\VGA_DISPLAY.vhd".
+        n = 14
+        m = 8
+    Found 10-bit register for signal <offsetXC>.
+    Found 2-bit register for signal <pres_state>.
+    Found 10-bit register for signal <x_axis>.
+    Found finite state machine <FSM_1> for signal <pres_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 13                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | front                                          |
+    | Power Up State     | front                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_36_OUT> created at line 3258.
+    Found 11-bit subtractor for signal <GND_8_o_GND_8_o_sub_38_OUT> created at line 3258.
+    Found 17-bit adder for signal <Address> created at line 3209.
+    Found 10-bit adder for signal <x_axis[9]_GND_8_o_add_27_OUT> created at line 3245.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_16_OUT<9:0>> created at line 3209.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_17_OUT<9:0>> created at line 3209.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_26_OUT<9:0>> created at line 3242.
+    Found 8-bit 3-to-1 multiplexer for signal <Color_Cookie> created at line 3215.
+    Found 10-bit comparator greater for signal <GND_8_o_x_axis[9]_LessThan_25_o> created at line 3240
+    Found 10-bit comparator greater for signal <x_axis[9]_PWR_9_o_LessThan_27_o> created at line 3243
+    Found 11-bit comparator lessequal for signal <n0036> created at line 3258
+    Found 11-bit comparator greater for signal <GND_8_o_GND_8_o_LessThan_39_o> created at line 3258
+    Found 10-bit comparator greater for signal <GND_8_o_Yin[9]_LessThan_40_o> created at line 3258
+    Summary:
+	inferred   6 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   5 Comparator(s).
+	inferred   3 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <VGA_DISPLAY> synthesized.
+
+Synthesizing Unit <freqDivider60>.
+    Related source file is "D:\Semestre_9\Sistemas_Digitales_Avanzados\sisdig_final\Final_Project_Videogame\freqDivider60.vhd".
+    Found 20-bit register for signal <Count100M>.
+    Found 1-bit register for signal <enable60>.
+    Found 20-bit adder for signal <Count100M[19]_GND_20_o_add_1_OUT> created at line 57.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <freqDivider60> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 12
+ 10-bit adder                                          : 2
+ 10-bit addsub                                         : 1
+ 10-bit subtractor                                     : 4
+ 11-bit subtractor                                     : 2
+ 17-bit adder                                          : 1
+ 2-bit adder                                           : 1
+ 20-bit adder                                          : 1
+# Registers                                            : 8
+ 1-bit register                                        : 2
+ 10-bit register                                       : 4
+ 2-bit register                                        : 1
+ 20-bit register                                       : 1
+# Comparators                                          : 9
+ 10-bit comparator equal                               : 1
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 3
+ 11-bit comparator greater                             : 1
+ 11-bit comparator lessequal                           : 1
+# Multiplexers                                         : 4
+ 20-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 2
+ 8-bit 3-to-1 multiplexer                              : 1
+# FSMs                                                 : 2
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.

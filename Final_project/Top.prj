@@ -1,4 +1,0 @@
-verilog work "ipcore_dir/ROM_1.v"
-vhdl work "VGA_DISPLAY.vhd"
-vhdl work "VGA.vhd"
-vhdl work "Top.vhd"

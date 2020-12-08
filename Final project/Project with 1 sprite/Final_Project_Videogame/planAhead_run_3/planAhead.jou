@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 07 11:40:57 2020
+# Process ID: 26500
+# Log file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_3/planAhead.log
+# Journal file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/pa.fromNetlist.tcl
+set_property is_loc_fixed false [get_ports [list  Hsync]]
+save_constraints
+set_property is_loc_fixed true [get_ports [list  Hsync]]
+set_property is_loc_fixed false [get_ports [list  Hsync]]
+set_property is_loc_fixed true [get_ports [list  Hsync]]
+save_constraints

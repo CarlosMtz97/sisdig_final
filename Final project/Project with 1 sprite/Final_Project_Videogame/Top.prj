@@ -1,0 +1,4 @@
+vhdl work "VGA_DISPLAY.vhd"
+vhdl work "VGA.vhd"
+vhdl work "freqDivider60.vhd"
+vhdl work "Top.vhd"

@@ -1,0 +1,160 @@
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.xst" -ofn "D:/ProyectosSisDigAv/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.xst" -ofn "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.syr" 
+xst -intstyle ise -ifn "D:/Descargas/Final_Project_Videogame/Top.xst" -ofn "D:/Descargas/Final_Project_Videogame/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Top.ucf -p xc6slx16-csg324-3 Top.ngc Top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -mt off Top_map.ncd Top.ncd Top.pcf 
+trce -filter D:/Descargas/Final_Project_Videogame/iseconfig/filter.filter -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Top.ut Top.ncd 

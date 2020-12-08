@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Dec 07 11:40:44 2020
+# Process ID: 14032
+# Log file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_2/planAhead.log
+# Journal file: D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1559 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/pa.fromNetlist.tcl
+# create_project -name Final_Project_Videogame -dir "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_4" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 444.906 ; gain = 68.371
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame} }
+# set_property target_constrs_file "Top.ucf" [current_fileset -constrset]
+Adding file 'D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ucf' to fileset 'constrs_1'
+# add_files [list {Top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+WARNING: [Common 17-175] Failed to make directory to contain cached edif files [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/planAhead_run_4/Final_Project_Videogame.data/cache]
+ERROR: [Designutils 20-396] Could not read top design file [D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/Top.ngc] because temporary work directory could not be created
+
+    while executing
+"link_design"
+    (file "D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame/pa.fromNetlist.tcl" line 10)
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/Semestre_9/Sistemas_Digitales_Avanzados/sisdig_final/Final_Project_Videogame\planAhead_pid14032.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Dec 07 11:41:56 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead
