@@ -1125,8 +1125,7 @@ begin
 	 end if;
   end process Cookie;
   
-  -- Make a drawing of 4 colored bars
-  -- Red Green Blue White
+
   process (En,Xin, Yin, AddressCookie, x_axis) 
   begin
     -- Check if pixel is in the active zone
@@ -1136,13 +1135,12 @@ begin
 			  if ((Xin>= (512 - x_axis) and Xin < (640 - x_axis)) and Yin > 352) then
 				 Color <= cookieS (conv_integer(AddressCookie));
 			  else
-				 --In any other case, draw everything black
+				 --In any other case, draw everything RED
 				 Color <= "11100000"; -- RED
 			  end if;
 	 else
-			-- EXTREMLY IMPORTANT
 			-- Not in active zone, pixels should be OFF
-			Color <= "00000000"; -- Off
+			Color <= "00000000"; 
 	 end if;
   end process;
   

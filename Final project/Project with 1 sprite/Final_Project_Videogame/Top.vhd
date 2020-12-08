@@ -37,8 +37,6 @@ end Top;
 
 architecture Behavioral of Top is
   -- Component declarations
-  
-  
   component freqDivider60 
   port (
 	Clk100MHz : in STD_LOGIC;
@@ -87,7 +85,6 @@ architecture Behavioral of Top is
 
 begin
   -- Component instantiation (component connecting)
-  
   -- New style of instantiation
   C01 : VGA 
   port map (

@@ -1,16 +1,14 @@
 ----------------------------------------------------------------------------------
--- Company:        ITESM - CQ
--- Engineer:       My name
+-- Company:        
+-- Engineer:       
 -- 
--- Create Date:    09:54:39 11/07/2017 
+-- Create Date:   
 -- Design Name: 
--- Module Name:    VGA - Behavioral 
+-- Module Name:    
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
--- Description:    Moore FSM that describes the 
---                 behaviour of a 640 x 480
---                 VGA signal @ 60 Hz
+-- Description:    
 -- Dependencies: 
 --
 -- Revision: 
@@ -113,11 +111,8 @@ begin
 		  CuentaH  <= CuentaH + 1;
 		end if;
 		
-		-- Increment CuentaV
 		-- Check if the state machine is leaving the
-		-- Horizontal Front Porch State. According to
-		-- the VGA specifications, The Vertical Pulse
-		-- should be generated accordingly
+		-- Horizontal Front Porch State
 		if (CuentaH = Tiempo and pr_state = FP_HS) then
 		  if (CuentaV = MX_VS) then
 		    CuentaV <= 1;
@@ -152,7 +147,6 @@ begin
 	end case;
   end process fsm;  
 
-  -- If implementing a Moore Machine use the following process
   -- The output of a Moore Machine is determined by the present_state only
   output: process (pr_state)
   begin
